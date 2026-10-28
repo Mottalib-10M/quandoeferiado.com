@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://br-feriados.example/sitemap-index.xml
+Sitemap: https://quandoeferiado.com/sitemap-index.xml

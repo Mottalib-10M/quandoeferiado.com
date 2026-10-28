@@ -1,8 +1,8 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://br-feriados.example";
-export const SITE_NAMES: Record<string, string> = {"pt": "BR Feriados", "en": "BR Feriados"};
+export const SITE_URL = "https://quandoeferiado.com";
+export const SITE_NAMES: Record<string, string> = {"pt": "Quando é Feriado", "en": "Quando é Feriado"};
 // Partie du nom affichée en couleur dans l'en-tête (RECETTE §10.3), « » pour aucune.
-export const BRAND_ACCENT = "Feriados";
+export const BRAND_ACCENT = "Feriado";
 export const NUM_TAGS: Record<string, string> = {"pt": "pt-BR", "en": "en-GB"};
 export const LANG_TAGS: Record<string, string> = {"pt": "pt-BR", "en": "en-BR"};
 export const OG_LOCALES: Record<string, string> = {"pt": "pt_BR", "en": "en_GB"};
@@ -14,12 +14,12 @@ export const SITE_FOUNDED = '2026';
 export const LAST_UPDATED = '2026-10-28';
 export const AUTHOR_NAME = 'Radif Partners';
 export const AUTHOR_ROLE: Record<string, string> = {"pt": "Editora independente de um calendário de feriados brasileiros que lê as leis federais, as leis estaduais das 27 unidades da federação e as leis municipais das capitais", "en": "Independent publisher of a Brazilian public holiday calendar built from the federal statutes, the holiday laws of all 27 states and the municipal laws of the state capitals"};
-export const AUTHOR_DESC: Record<string, string> = {"pt": "A Radif Partners é uma editora independente, sem vínculo com governo, prefeitura ou banco. Para o BR Feriados ela lê no texto oficial a Lei 662/1949, a Lei 6.802/1980, a Lei 14.759/2023 e a Lei 9.093/1995, a lei de cada estado que fixa sua data magna e as leis municipais das capitais, e acompanha a portaria anual do Ministério da Gestão sobre pontos facultativos. Páscoa, Carnaval e Corpus Christi saem de um algoritmo testado. Nada do que você digita sai do seu navegador.", "en": "Radif Partners is an independent publisher with no tie to any government, city hall or bank. For BR Feriados it reads the official text of Law 662/1949, Law 6,802/1980, Law 14,759/2023 and Law 9,093/1995, each state's own holiday law and the municipal laws of the state capitals, and follows the Ministry of Management's yearly ordinance on optional days off. Easter, Carnival and Corpus Christi come from a tested algorithm. Nothing you type leaves your browser."};
+export const AUTHOR_DESC: Record<string, string> = {"pt": "A Radif Partners é uma editora independente, sem vínculo com governo, prefeitura ou banco. Para o Quando é Feriado ela lê no texto oficial a Lei 662/1949, a Lei 6.802/1980, a Lei 14.759/2023 e a Lei 9.093/1995, a lei de cada estado que fixa sua data magna e as leis municipais das capitais, e acompanha a portaria anual do Ministério da Gestão sobre pontos facultativos. Páscoa, Carnaval e Corpus Christi saem de um algoritmo testado. Nada do que você digita sai do seu navegador.", "en": "Radif Partners is an independent publisher with no tie to any government, city hall or bank. For Quando é Feriado it reads the official text of Law 662/1949, Law 6,802/1980, Law 14,759/2023 and Law 9,093/1995, each state's own holiday law and the municipal laws of the state capitals, and follows the Ministry of Management's yearly ordinance on optional days off. Easter, Carnival and Corpus Christi come from a tested algorithm. Nothing you type leaves your browser."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"pt": ["Feriados nacionais do Brasil", "Feriados estaduais das 27 unidades da federação", "Feriados municipais das capitais", "Pontos facultativos do serviço público federal", "Cálculo da Páscoa, do Carnaval e de Corpus Christi", "Dias úteis e emendas de feriado"], "en": ["Brazilian national public holidays", "State holidays in Brazil's 27 federative units", "Municipal holidays of the state capitals", "Optional days off in the federal civil service", "Computing Easter, Carnival and Corpus Christi", "Working days and long weekends in Brazil"]};
-export const CONTACT_EMAIL = "contato@br-feriados.example";
+export const CONTACT_EMAIL = "contact@quandoeferiado.com";
 export const THEME_COLOR = '#00703C';
 export const LOGO_SYMBOL = '31';
 export const BING_VERIFY_CODE = '';

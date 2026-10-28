@@ -1,6 +1,6 @@
 {
- "name": "BR Feriados",
- "short_name": "BR Feriados",
+ "name": "Quando é Feriado",
+ "short_name": "Quando é Feriado",
  "description": "Feriados 2026 e 2027 no Brasil: nacionais, estaduais das 27 UFs e das capitais, próximo feriado, feriados prolongados, emendas, Carnaval e Páscoa, com a lei de cada data.",
  "start_url": "/pt/",
  "display": "standalone",
