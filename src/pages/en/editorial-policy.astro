@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy: holiday sources, testing and corrections" description="Where the Brazilian public holidays and optional days off come from, which texts count as a source, how the tools are tested and how we fix a wrong date." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial policy and corrections</h1>
+    <p>Plan a trip around a holiday that does not exist in your city and you are at work while everyone else is away. This page explains where every date comes from and what happens when something is wrong.</p>
+    <h2>Responsibility</h2><p>Content and calculators are the responsibility of {AUTHOR_NAME}. Contact: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Order of sources</h2>
+    <ol>
+      <li><strong>Federal laws</strong> as in force, read on the official federal portals: Laws 662/1949, 6,802/1980, 9,093/1995 and 14,759/2023;</li>
+      <li><strong>State constitutions, laws and decrees</strong> on the state assemblies' and governments' portals; where the law itself could not be opened, an official text that applies it (a state decree, or a court or prosecution service ordinance), named as such;</li>
+      <li><strong>Municipal laws</strong> of the state capitals, on the city's or council's portal;</li>
+      <li><strong>The Ministry of Management's yearly ordinance</strong> for federal optional days off.</li>
+    </ol>
+    <p>Calendar sites, newspapers and travel portals are not a source. A date that has been struck down by the Supreme Court, revoked, or that only appears on private lists is shown as "not a holiday" with the reason, not in the count.</p>
+    <h2>Computed, not copied</h2><p>No date on this site is typed by hand. An engine derives each holiday from its rule: fixed day, offset from Easter (Carnival, Good Friday, Corpus Christi), or a date set by decree. Automated tests compare Easter with a second, independent formula over a thousand years, check the national list, Acre's Friday rule and the long-weekend planner on every change.</p>
+    <h2>Review cycle</h2><p>A full review at least every {REVIEW_CYCLE_MONTHS} months, each December when the federal ordinance for the next year comes out, and after any change to a holiday law we are told about.</p>
+    <h2>Handling errors</h2>
+    <ol><li>Check against the official text.</li><li>Fix the rule in the engine and add a test.</li><li>New date on every page.</li></ol>
+    <h2>Independence</h2><p>No money from travel companies, hotels or governments. No affiliate links, no paid content, no lead forms.</p>
+    <p>See also <a href={route('method', lang)}>Method</a>. Version of {displayDate(LAST_UPDATED, 'en-GB')}.</p>
+  </div>
+</PageLayout>

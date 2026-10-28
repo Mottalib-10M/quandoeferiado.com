@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { CONTACT_EMAIL, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const description = 'Write to us if a Brazilian public holiday, a date or a state or municipal law looks wrong, or if you would like to embed the holiday calculator on your website.';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: report an error, embed the tools`} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path: route('contact', lang), lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. We usually reply within a week.</p>
+    <h2>A holiday or date looks wrong</h2>
+    <p>Tell us the page, the state or city, the year and, if you can, the number of the law or decree. We check against the official text and correct within a few days.</p>
+    <h2>Your city's holidays are missing</h2>
+    <p>We publish municipal holidays only for state capitals whose law we have read. Send us the municipal law or the city hall's decree for the year and we will add it after checking.</p>
+    <h2>Embed the next-holiday box</h2>
+    <p>Unions, HR teams, schools and local newspapers can embed the next-holiday box for free: <a href={route('widget', lang)}>Embed</a>.</p>
+    <h2>What we do not do</h2>
+    <p>No legal advice on working on holidays or on pay, no travel booking, no school calendars.</p>
+  </div>
+</PageLayout>

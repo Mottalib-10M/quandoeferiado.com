@@ -1,0 +1,50 @@
+---
+/** Método: feriados nacionais, estaduais e municipais, Páscoa, regra do Acre, planejador, testes, limites. Números do motor. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { srcLink } from '../../lib/helpers';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+const lang = 'pt';
+const path = route('method', lang);
+const title = 'Como calculamos os feriados: leis, Páscoa e testes';
+const description = 'Como calculamos os feriados do Brasil: leis federais, estaduais e das capitais lidas uma a uma, Páscoa por Gauss, a regra da sexta do Acre e os testes.';
+const s = (k: string, t: string) => srcLink(k, lang, t);
+const d = (x: string) => displayDate(x, 'pt-BR');
+const p10 = K.otimiza(2027, { uf: 'RJ' }, 10);
+const nEst = [...K.UFS].filter((u) => K.ESTADUAIS(u).length > 0).length;
+const nCap = K.UFS_COM_CAPITAL().length;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'Método', description, path, lang }), breadcrumbSchema([{ name: 'Início', path: route('home', lang) }, { name: 'Método', path }])]} breadcrumbs={[{ label: 'Método' }]}>
+  <article class="prose prose-slate max-w-none">
+    <h1>Como as calculadoras encontram os feriados</h1>
+    <p>Todas as calculadoras do site funcionam no seu navegador. O que você informa, estado, cidade, dias de folga, fica no seu aparelho. A base são as leis federais de feriados, as leis de cada estado e as leis municipais das capitais. Última leitura completa: {d(K.LIDO_EM)}.</p>
+
+    <h2>Feriados nacionais</h2>
+    <p>Nove datas são feriado nacional por lei federal: 1º de janeiro, 21 de abril, 1º de maio, 7 de setembro, 2 de novembro e 15 de novembro pela <Fragment set:html={s('lei-662', 'Lei 662/1949')} />, 25 de dezembro, 12 de outubro pela <Fragment set:html={s('lei-6802', 'Lei 6.802/1980')} /> e 20 de novembro pela <Fragment set:html={s('lei-14759', 'Lei 14.759/2023')} />. A Sexta-feira da Paixão é feriado religioso declarado pelos municípios com base na <Fragment set:html={s('lei-9093', 'Lei 9.093/1995')} />; como é observada no país inteiro, as calculadoras a tratam como nacional. Carnaval, Quarta-feira de Cinzas e Corpus Christi não são feriados nacionais: são pontos facultativos federais, e feriado só onde lei estadual ou municipal manda.</p>
+    <p>Feriado que cai no fim de semana não passa para um dia útil no Brasil, com uma exceção, logo abaixo.</p>
+
+    <h2>Feriados estaduais e das capitais</h2>
+    <p>{nEst} das 27 unidades da federação têm ao menos um feriado estadual que conseguimos confirmar em texto oficial. Cada um está no motor com a lei, o ano de início e o link para o texto. Quando a própria lei não abriu, usamos um texto oficial que a aplica, como um decreto estadual ou uma portaria de tribunal, e dizemos isso na lista de fontes. Datas derrubadas pelo Supremo (como o Dia do Evangélico de Rondônia, ADI 3.940) ou revogadas aparecem como "não é feriado". As datas do estatuto dos servidores de Goiás valem só para o serviço público estadual e não entram na conta. Em {nCap} capitais, os feriados municipais foram lidos na lei municipal e podem ser somados com a opção "capital".</p>
+    <p>O <strong>Acre</strong> adia para a sexta-feira da mesma semana os feriados estaduais que caem de terça a quinta, menos o aniversário do estado, pela <Fragment set:html={s('ac-lei-2126', 'Lei 2.126/2009')} />. Se a sexta já é feriado, o motor usa o dia livre mais próximo antes, como faz o decreto estadual de 2026. <strong>Santa Catarina</strong> comemora a data magna no domingo seguinte ao 11 de agosto.</p>
+
+    <h2>Páscoa e as datas móveis</h2>
+    <p>O domingo de Páscoa é calculado pela fórmula de Gauss. A terça de Carnaval fica 47 dias antes, a Quarta-feira de Cinzas 46, a Sexta-feira da Paixão 2, e Corpus Christi 60 dias depois. Para conferir, um segundo algoritmo independente (Meeus, Jones, Butcher) refaz todos os anos de 1600 a 2600; os dois batem nos mil anos.</p>
+
+    <h2>Pontos facultativos federais</h2>
+    <p>Todo ano o Ministério da Gestão publica uma portaria com os pontos facultativos dos órgãos federais; para 2026, a <Fragment set:html={s('portaria-mgi-2026', 'Portaria MGI 11.460/2025')} />. Só mostramos essas datas depois que a portaria do ano sai; antes disso, a página avisa que ela não foi publicada e mostra, calculadas, as datas que costumam entrar, como previsão.</p>
+
+    <h2>Como funciona o planejador</h2>
+    <p>O ano é dividido em blocos: blocos livres, de fins de semana e feriados, e blocos de trabalho, de segunda a sexta. Folgar todos os dias de um bloco de trabalho junta os dois blocos livres em volta. O planejador testa todas as combinações e fica com a que dá mais dias livres seguidos dentro do seu saldo e, em caso de empate, com a que gasta menos folga. É programação dinâmica sobre todos os blocos de trabalho do ano, então a resposta é exata. Exemplo, Rio de Janeiro 2027: {p10.folga} dias de folga dão {p10.livre} dias livres em {p10.blocos.length} blocos.</p>
+
+    <h2>Dias úteis</h2>
+    <p>Dias úteis são os de segunda a sexta, ou de segunda a sábado se você escolher, menos os feriados do lugar escolhido. Prazos judiciais e administrativos seguem o calendário de cada tribunal ou órgão e não estão incluídos.</p>
+
+    <h2>Limites</h2>
+    <p>As calculadoras não conhecem convenções coletivas, escalas de turno ou recessos de empresa. Feriados municipais só das capitais cuja lei lemos. Feriados bancários e recessos forenses não estão incluídos.</p>
+
+    <h2>Atualização</h2>
+    <p>Relemos as leis com regularidade e todo mês de dezembro, quando sai a portaria federal do ano seguinte. Uma mudança só entra no ar depois que todos os testes passam de novo. Avise erros pela página de <a href={route('contact', lang)}>contato</a>; como corrigimos está na <a href={route('editorial', lang)}>política editorial</a>.</p>
+  </article>
+</PageLayout>

@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { displayDate } from '../../lib/format';
+const lang = 'pt';
+---
+<PageLayout title="Política editorial: fontes dos feriados, testes e correções" description="De onde vêm os feriados e pontos facultativos do site, que textos contam como fonte, como as calculadoras são testadas e como corrigimos uma data errada." lang={lang} noindex={true} breadcrumbs={[{ label: 'Política editorial' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Política editorial e correções</h1>
+    <p>Quem marca uma viagem contando com um feriado que não existe na sua cidade acaba trabalhando enquanto os outros descansam. Esta página explica de onde vem cada data e o que fazemos quando há erro.</p>
+    <h2>Responsabilidade</h2><p>Conteúdo e calculadoras são de responsabilidade da {AUTHOR_NAME}. Contato: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Ordem das fontes</h2>
+    <ol>
+      <li><strong>Leis federais</strong> em vigor, lidas nos portais oficiais: Leis 662/1949, 6.802/1980, 9.093/1995 e 14.759/2023;</li>
+      <li><strong>Constituições, leis e decretos estaduais</strong>, nos portais das assembleias e dos governos; quando a própria lei não abriu, um texto oficial que a aplica (decreto estadual, portaria de tribunal ou do Ministério Público), indicado como tal;</li>
+      <li><strong>Leis municipais</strong> das capitais, no portal da prefeitura ou da câmara;</li>
+      <li><strong>A portaria anual do Ministério da Gestão</strong> para os pontos facultativos federais.</li>
+    </ol>
+    <p>Sites de calendário, jornais e portais de viagem não são fonte. Uma data derrubada pelo Supremo, revogada ou que só aparece em listas privadas fica marcada como "não é feriado", com o motivo, fora da contagem.</p>
+    <h2>Calculado, não copiado</h2><p>Nenhuma data do site é digitada à mão. Um motor tira cada feriado da sua regra: dia fixo, distância da Páscoa (Carnaval, Paixão, Corpus Christi) ou data fixada por decreto. Testes automáticos comparam a Páscoa com uma segunda fórmula independente ao longo de mil anos e conferem a lista nacional, a regra da sexta do Acre e o planejador a cada mudança.</p>
+    <h2>Revisão</h2><p>Revisão completa no mínimo a cada {REVIEW_CYCLE_MONTHS} meses, todo mês de dezembro, quando sai a portaria federal do ano seguinte, e depois de qualquer mudança de lei que nos for informada.</p>
+    <h2>Tratamento de erros</h2>
+    <ol><li>Conferir no texto oficial.</li><li>Corrigir a regra no motor e acrescentar um teste.</li><li>Nova data em todas as páginas.</li></ol>
+    <h2>Independência</h2><p>Nenhum dinheiro de agências de viagem, hotéis ou governos. Sem links de afiliados, sem conteúdo pago, sem formulários de captação.</p>
+    <p>Veja também o <a href={route('method', lang)}>Método</a>. Versão de {displayDate(LAST_UPDATED, 'pt-BR')}.</p>
+  </div>
+</PageLayout>

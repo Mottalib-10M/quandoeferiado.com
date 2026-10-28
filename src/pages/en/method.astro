@@ -1,0 +1,50 @@
+---
+/** Method: national, state and municipal holidays, Easter, Acre's rule, planner, tests, limits. Figures from the engine. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { srcLink } from '../../lib/helpers';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+const lang = 'en';
+const path = route('method', lang);
+const title = 'Method: how we compute Brazilian holidays, laws, tests';
+const description = "How we compute Brazilian public holidays: national, state and capital-city laws read one by one, Easter by Gauss, Acre's Friday rule, the planner and tests.";
+const s = (k: string, t: string) => srcLink(k, lang, t);
+const d = (x: string) => displayDate(x, 'en-GB');
+const p10 = K.otimiza(2027, { uf: 'RJ' }, 10);
+const nEst = [...K.UFS].filter((u) => K.ESTADUAIS(u).length > 0).length;
+const nCap = K.UFS_COM_CAPITAL().length;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'Method', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <article class="prose prose-slate max-w-none">
+    <h1>How the calculators find Brazilian holidays</h1>
+    <p>Every calculator on this site runs in your browser. What you enter, state, city, days off, stays on your device. The basis is the federal holiday laws, each state's laws and the municipal laws of the state capitals. Our last full reading: {d(K.LIDO_EM)}.</p>
+
+    <h2>National holidays</h2>
+    <p>Nine dates are national holidays under federal law: 1 January, 21 April, 1 May, 7 September, 2 November and 15 November under <Fragment set:html={s('lei-662', 'Law 662/1949')} />, 25 December, 12 October under <Fragment set:html={s('lei-6802', 'Law 6,802/1980')} /> and 20 November under <Fragment set:html={s('lei-14759', 'Law 14,759/2023')} />. Good Friday is a religious holiday that municipalities declare under <Fragment set:html={s('lei-9093', 'Law 9,093/1995')} />; since it is observed across the country, the calculators treat it as nationwide. Carnival, Ash Wednesday and Corpus Christi are not national holidays: they are federal optional days off, and holidays only where a state or municipal law says so.</p>
+    <p>A holiday that falls on a weekend is not moved to a weekday in Brazil, with one exception below.</p>
+
+    <h2>State and capital-city holidays</h2>
+    <p>{nEst} of the 27 federal units have at least one state holiday we could confirm in an official text. Each one sits in the engine with its law, the year it started and the link to the text. Where the law itself could not be opened, we use an official text that applies it, such as a state decree or a court ordinance, and say so in the source list. Dates struck down by the Supreme Court (such as Rondônia's Evangelical Day, ADI 3,940) or revoked are shown as "not a holiday". Goiás's dates in the civil service statute apply only to state employees and are not counted. For {nCap} state capitals, the municipal holidays were read in the municipal law and can be added with the "capital" option.</p>
+    <p><strong>Acre</strong> moves state holidays that fall from Tuesday to Thursday to the Friday of the same week, except Statehood Day, under <Fragment set:html={s('ac-lei-2126', 'Law 2,126/2009')} />. If the Friday is already a holiday, the engine moves it to the nearest free day before, as the state's 2026 decree does. <strong>Santa Catarina</strong> celebrates its state day on the Sunday after 11 August.</p>
+
+    <h2>Easter and the movable dates</h2>
+    <p>Easter Sunday is computed with Gauss's formula. Carnival Tuesday is 47 days before, Ash Wednesday 46, Good Friday 2, and Corpus Christi 60 days after. As a check, a second, independent algorithm (Meeus, Jones, Butcher) recomputes every year from 1600 to 2600; both agree in all thousand years.</p>
+
+    <h2>Federal optional days off</h2>
+    <p>Each year the Ministry of Management publishes an ordinance listing the optional days off for federal bodies; for 2026, <Fragment set:html={s('portaria-mgi-2026', 'MGI ordinance 11,460/2025')} />. We show those dates only once the ordinance for the year is out; before that, the page says it has not been published and shows the dates that are usually included, computed, as a forecast.</p>
+
+    <h2>How the planner works</h2>
+    <p>The year is split into blocks: free blocks of weekends and holidays, and working blocks of Mondays to Fridays. Taking every day of a working block off joins the two free blocks around it. The planner searches every combination for the one that gives the most consecutive free days within your budget, and on a tie the one that uses fewer days off. It is dynamic programming over every working block of the year, so the answer is exact. Example, Rio de Janeiro 2027: {p10.folga} days off give {p10.livre} free days in {p10.blocos.length} blocks.</p>
+
+    <h2>Working days</h2>
+    <p>Working days are Monday to Friday, or Monday to Saturday if you choose, minus the holidays of the chosen place. Court and administrative deadlines follow each court's or body's own calendar and are not covered.</p>
+
+    <h2>Limits</h2>
+    <p>The calculators know nothing about collective agreements, shift rotas or company closures. Municipal holidays are covered for state capitals only, where we have read the law. Bank holidays and court recesses are not covered.</p>
+
+    <h2>Updates</h2>
+    <p>We reread the laws regularly and every December, when the federal ordinance for the next year is published. A change goes live only once every test passes again. Report errors through the <a href={route('contact', lang)}>contact page</a>; how we correct is in the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+  </article>
+</PageLayout>

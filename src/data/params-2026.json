@@ -1,0 +1,852 @@
+{
+ "_lisezmoi": "Paramètres et sources du site. Généré par build-locais.py (params-base.json + recherche) : chaque source a été lue sur le texte officiel le jour indiqué par retrieved_at.",
+ "year": 2026,
+ "retrieved_at": "2026-10-28",
+ "anos": [
+  2026,
+  2027,
+  2028
+ ],
+ "sources": {
+  "lei-662": {
+   "url": "https://www2.camara.leg.br/legin/fed/lei/1940-1949/lei-662-6-abril-1949-347136-normaatualizada-pl.html",
+   "label": {
+    "pt": "Lei nº 662, de 6 de abril de 1949, art. 1º, na redação da Lei nº 10.607/2002 (Câmara dos Deputados, texto atualizado)",
+    "en": "Law 662 of 6 April 1949, art. 1, as amended by Law 10,607/2002 (Chamber of Deputies, consolidated text)"
+   }
+  },
+  "lei-6802": {
+   "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6802-30-junho-1980-357065-publicacaooriginal-1-pl.html",
+   "label": {
+    "pt": "Lei nº 6.802, de 30 de junho de 1980: 12 de outubro, Nossa Senhora Aparecida (Câmara dos Deputados)",
+    "en": "Law 6,802 of 30 June 1980: 12 October, Our Lady of Aparecida (Chamber of Deputies)"
+   }
+  },
+  "lei-9093": {
+   "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-9093-12-setembro-1995-348594-normaatualizada-pl.html",
+   "label": {
+    "pt": "Lei nº 9.093, de 12 de setembro de 1995: feriados civis e religiosos (Câmara dos Deputados, texto atualizado)",
+    "en": "Law 9,093 of 12 September 1995: civil and religious holidays (Chamber of Deputies, consolidated text)"
+   }
+  },
+  "lei-14759": {
+   "url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14759-21-dezembro-2023-795091-publicacaooriginal-170522-pl.html",
+   "label": {
+    "pt": "Lei nº 14.759, de 21 de dezembro de 2023: 20 de novembro, Dia Nacional de Zumbi e da Consciência Negra (Câmara dos Deputados)",
+    "en": "Law 14,759 of 21 December 2023: 20 November, National Day of Zumbi and Black Consciousness (Chamber of Deputies)"
+   }
+  },
+  "portaria-mgi-2026": {
+   "url": "https://legis.sigepe.gov.br/sigepe-bgp-ws-legis/legis-service/download/?amp=&id=0026440285-ALPDF%2F2025",
+   "label": {
+    "pt": "Portaria MGI nº 11.460, de 29 de dezembro de 2025: feriados nacionais e pontos facultativos de 2026 (DOU de 30/12/2025, via Sigepe Legis)",
+    "en": "Ministry of Management Ordinance 11,460 of 29 December 2025: national holidays and optional days off in 2026 (Official Gazette of 30/12/2025, via Sigepe Legis)"
+   }
+  },
+  "mgi-calendario-2026": {
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/noticias/2025/dezembro/confira-o-calendario-oficial-de-feriados-nacionais-e-pontos-facultativos-em-2026",
+   "label": {
+    "pt": "Ministério da Gestão e da Inovação: calendário oficial de feriados nacionais e pontos facultativos em 2026",
+    "en": "Ministry of Management and Innovation: official calendar of national holidays and optional days off in 2026"
+   }
+  },
+  "mgi-servidor-2026": {
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/outubro/ponto-facultativo-do-dia-do-servidor-publico-sera-transferido-para-30-de-outubro",
+   "label": {
+    "pt": "Ministério da Gestão: ponto facultativo do Dia do Servidor Público transferido para 30 de outubro de 2026",
+    "en": "Ministry of Management: the Public Servant's Day optional day off moved to 30 October 2026"
+   }
+  },
+  "mgi-noticias": {
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/noticias",
+   "label": {
+    "pt": "Ministério da Gestão e da Inovação: notícias (a portaria de 2027 ainda não constava em 28/10/2026)",
+    "en": "Ministry of Management and Innovation: news (no 2027 ordinance listed as of 28/10/2026)"
+   }
+  },
+  "ac-lei-2126": {
+   "url": "https://legis.ac.gov.br/detalhar/274",
+   "label": {
+    "pt": "Acre — Lei nº 2.126, de 19 de junho de 2009 (redação da Lei nº 2.247/2009): adiamento dos feriados estaduais para a sexta-feira",
+    "en": "Acre — Law 2,126 of 19 June 2009 (as amended by Law 2,247/2009): state holidays moved to the Friday"
+   }
+  },
+  "decreto-21366": {
+   "url": "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-21366-5-maio-1932-559485-publicacaooriginal-81718-pe.html",
+   "label": {
+    "pt": "Decreto nº 21.366, de 5 de maio de 1932: o segundo domingo de maio é consagrado às mães (Câmara dos Deputados)",
+    "en": "Decree 21,366 of 5 May 1932: the second Sunday of May is dedicated to mothers (Chamber of Deputies)"
+   }
+  },
+  "ac-dia-do-catolico": {
+   "url": "https://legis.ac.gov.br/detalhar/2249",
+   "label": {
+    "pt": "Acre — Lei nº 3.137, de 27 de junho de 2016",
+    "en": "Acre — Lei nº 3.137, de 27 de junho de 2016"
+   }
+  },
+  "ac-dia-do-evangelico": {
+   "url": "https://legis.ac.gov.br/detalhar/1087",
+   "label": {
+    "pt": "Acre — Lei nº 1.538, de 29 de janeiro de 2004",
+    "en": "Acre — Lei nº 1.538, de 29 de janeiro de 2004"
+   }
+  },
+  "ac-dia-internacional-da-mulher": {
+   "url": "https://legis.ac.gov.br/detalhar/1828",
+   "label": {
+    "pt": "Acre — Lei nº 1.411, de 14 de setembro de 2001",
+    "en": "Acre — Lei nº 1.411, de 14 de setembro de 2001"
+   }
+  },
+  "ac-aniversario-do-estado": {
+   "url": "https://legis.ac.gov.br/detalhar/618",
+   "label": {
+    "pt": "Acre — Lei nº 14, de 2 de setembro de 1964",
+    "en": "Acre — Lei nº 14, de 2 de setembro de 1964"
+   }
+  },
+  "ac-dia-da-amazonia": {
+   "url": "https://legis.ac.gov.br/detalhar/940",
+   "label": {
+    "pt": "Acre — Lei nº 243, de 4 de dezembro de 1968",
+    "en": "Acre — Lei nº 243, de 4 de dezembro de 1968"
+   }
+  },
+  "ac-tratado-de-petropolis": {
+   "url": "https://legis.ac.gov.br/detalhar/688",
+   "label": {
+    "pt": "Acre — Lei nº 57, de 14 de dezembro de 1965",
+    "en": "Acre — Lei nº 57, de 14 de dezembro de 1965"
+   }
+  },
+  "al-sao-joao": {
+   "url": "https://sapl.al.al.leg.br/media/sapl/public/normajuridica/1993/3363/lei_5.508_de_07.07.1993.pdf",
+   "label": {
+    "pt": "Alagoas — Lei nº 5.508, de 7 de julho de 1993",
+    "en": "Alagoas — Lei nº 5.508, de 7 de julho de 1993"
+   }
+  },
+  "al-sao-pedro": {
+   "url": "https://sapl.al.al.leg.br/media/sapl/public/normajuridica/1993/3364/lei_5.509_de_07.07.1993.pdf",
+   "label": {
+    "pt": "Alagoas — Lei nº 5.509, de 7 de julho de 1993",
+    "en": "Alagoas — Lei nº 5.509, de 7 de julho de 1993"
+   }
+  },
+  "al-emancipacao-politica": {
+   "url": "https://sapl.al.al.leg.br/media/sapl/public/normajuridica/2024/3117/lei_no_9.358_de_26_de_agosto_de_2024.pdf",
+   "label": {
+    "pt": "Alagoas — Lei nº 9.358, de 26 de agosto de 2024",
+    "en": "Alagoas — Lei nº 9.358, de 26 de agosto de 2024"
+   }
+  },
+  "ap-sao-jose": {
+   "url": "https://trf1.jus.br/sjap/conteudo/avisos/Portaria%20SJAP-Diref%204-2023%2011-1-2023%20feriados%202023%20(1).pdf",
+   "label": {
+    "pt": "Amapá — Lei estadual nº 667/2002, segundo a Portaria SJAP-Diref 4/2023 da Justiça Federal no Amapá",
+    "en": "Amapá — State Law 667/2002, as listed by Federal Court ordinance SJAP-Diref 4/2023 (Amapá)"
+   }
+  },
+  "ap-dia-de-cabralzinho": {
+   "url": "https://trf1.jus.br/sjap/conteudo/avisos/Portaria%20SJAP-Diref%204-2023%2011-1-2023%20feriados%202023%20(1).pdf",
+   "label": {
+    "pt": "Amapá — Lei estadual nº 2.213/2017, segundo a Portaria SJAP-Diref 4/2023 da Justiça Federal no Amapá",
+    "en": "Amapá — State Law 2,213/2017, as listed by Federal Court ordinance SJAP-Diref 4/2023 (Amapá)"
+   }
+  },
+  "am-elevacao-provincia": {
+   "url": "https://sapl.al.am.leg.br/norma/2038",
+   "label": {
+    "pt": "Amazonas — Lei nº 25, de 21 de dezembro de 1977",
+    "en": "Amazonas — Lei nº 25, de 21 de dezembro de 1977"
+   }
+  },
+  "ba-independencia-da-bahia": {
+   "url": "https://www.legislabahia.ba.gov.br/documentos/constituicao-do-estado-da-bahia-de-05-de-outubro-de-1989",
+   "label": {
+    "pt": "Bahia — Constituição do Estado da Bahia, de 5 de outubro de 1989",
+    "en": "Bahia — Constituição do Estado da Bahia, de 5 de outubro de 1989"
+   }
+  },
+  "ce-data-magna": {
+   "url": "https://belt.al.ce.gov.br/index.php/constituicao-do-ceara/emendas-a-constituicao-do-ceara/item/5643-emenda-constitucional-n-73-de-1-de-dezembro-de-2011-d-o-06-12-11",
+   "label": {
+    "pt": "Ceará — Constituição do Estado do Ceará",
+    "en": "Ceará — Constituição do Estado do Ceará"
+   }
+  },
+  "df-fundacao-brasilia": {
+   "url": "https://www.sinj.df.gov.br/sinj/Norma/18459/Lei_72_27_12_1989.html",
+   "label": {
+    "pt": "Distrito Federal — Lei distrital nº 72, de 27 de dezembro de 1989",
+    "en": "Distrito Federal — Lei distrital nº 72, de 27 de dezembro de 1989"
+   }
+  },
+  "df-corpus-christi": {
+   "url": "https://www.sinj.df.gov.br/sinj/Norma/18459/Lei_72_27_12_1989.html",
+   "label": {
+    "pt": "Distrito Federal — Lei distrital nº 72, de 27 de dezembro de 1989",
+    "en": "Distrito Federal — Lei distrital nº 72, de 27 de dezembro de 1989"
+   }
+  },
+  "df-dia-do-evangelico": {
+   "url": "https://www.sinj.df.gov.br/sinj/Norma/48922/Lei_963_04_12_1995.html",
+   "label": {
+    "pt": "Distrito Federal — Lei distrital nº 963, de 4 de dezembro de 1995",
+    "en": "Distrito Federal — Lei distrital nº 963, de 4 de dezembro de 1995"
+   }
+  },
+  "es-nossa-senhora-da-penha": {
+   "url": "https://seger.es.gov.br/Media/Seger/legisla%C3%A7%C3%A3o/DECRETO%20124-S%20-%20DIO%2023%2001%202026.pdf",
+   "label": {
+    "pt": "Espírito Santo — Lei estadual nº 11.010/2019; Decreto nº 124-S/2026 (calendário de 2026)",
+    "en": "Espírito Santo — State Law 11,010/2019; Decree 124-S/2026 (2026 calendar)"
+   }
+  },
+  "ms-criacao-do-estado": {
+   "url": "https://agenciadenoticias.ms.gov.br/wp-content/uploads/2025/01/decreto-feriados.pdf",
+   "label": {
+    "pt": "Mato Grosso do Sul — Decreto \"E\" nº 2/2025 do Governo de MS (feriados), Lei estadual nº 10/1979",
+    "en": "Mato Grosso do Sul — MS Government decree \"E\" 2/2025 (holidays), State Law 10/1979"
+   }
+  },
+  "mg-data-magna-tiradentes": {
+   "url": "https://www.almg.gov.br/legislacao-mineira/texto/CON/1989/1989/?cons=1",
+   "label": {
+    "pt": "Minas Gerais — Constituição do Estado de Minas Gerais de 21/09/1989",
+    "en": "Minas Gerais — Constituição do Estado de Minas Gerais de 21/09/1989"
+   }
+  },
+  "pa-adesao-independencia": {
+   "url": "https://sistemas.semas.pa.gov.br/legislacao/files/pdf/846515.pdf",
+   "label": {
+    "pt": "Pará — Decreto estadual nº 5.122, de 19 de dezembro de 2025",
+    "en": "Pará — State Decree 5,122 of 19 December 2025"
+   }
+  },
+  "pb-fundacao-do-estado": {
+   "url": "https://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2015/11988/11988_texto_integral.pdf",
+   "label": {
+    "pt": "Paraíba — Lei nº 10.601, de 16 de dezembro de 2015",
+    "en": "Paraíba — Lei nº 10.601, de 16 de dezembro de 2015"
+   }
+  },
+  "pe-revolucao-pernambucana": {
+   "url": "https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=1&numero=16241&complemento=0&ano=2017&tipo=&url=",
+   "label": {
+    "pt": "Pernambuco — Lei nº 16.241, de 14 de dezembro de 2017",
+    "en": "Pernambuco — Lei nº 16.241, de 14 de dezembro de 2017"
+   }
+  },
+  "pi-dia-do-piaui": {
+   "url": "https://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1937/5849/lei_176_de_30_de_agosto_de_1937.pdf",
+   "label": {
+    "pt": "Piauí — Lei nº 176, de 30 de agosto de 1937",
+    "en": "Piauí — Lei nº 176, de 30 de agosto de 1937"
+   }
+  },
+  "rj-carnaval-terca": {
+   "url": "http://alerjln1.alerj.rj.gov.br/contlei.nsf/f25edae7e64db53b032564fe005262ef/063f7c027766eab48325744a007a4ab0?OpenDocument",
+   "label": {
+    "pt": "Rio de Janeiro — Lei estadual nº 5.243, de 14 de maio de 2008",
+    "en": "Rio de Janeiro — Lei estadual nº 5.243, de 14 de maio de 2008"
+   }
+  },
+  "rj-sao-jorge": {
+   "url": "http://alerjln1.alerj.rj.gov.br/contlei.nsf/f25edae7e64db53b032564fe005262ef/1baf90ca125ff96f8325740a00776600?OpenDocument",
+   "label": {
+    "pt": "Rio de Janeiro — Lei estadual nº 5.198, de 5 de março de 2008",
+    "en": "Rio de Janeiro — Lei estadual nº 5.198, de 5 de março de 2008"
+   }
+  },
+  "rj-corpus-christi": {
+   "url": "http://alerjln1.alerj.rj.gov.br/contlei.nsf/f25edae7e64db53b032564fe005262ef/46837e4d22b01f3503258d2c0048abda?OpenDocument",
+   "label": {
+    "pt": "Rio de Janeiro — Lei estadual nº 11.002, de 22 de outubro de 2025",
+    "en": "Rio de Janeiro — Lei estadual nº 11.002, de 22 de outubro de 2025"
+   }
+  },
+  "rs-revolucao-farroupilha": {
+   "url": "https://www.diariooficial.rs.gov.br/materia?id=1371210",
+   "label": {
+    "pt": "Rio Grande do Sul — Constituição do RS, art. 6º, parágrafo único; Decreto nº 58.607/2026",
+    "en": "Rio Grande do Sul — RS State Constitution, art. 6, sole paragraph; Decree 58,607/2026"
+   }
+  },
+  "ro-criacao-do-estado": {
+   "url": "https://sapl.al.ro.leg.br/norma/4958",
+   "label": {
+    "pt": "Rondônia — Lei nº 2.291, de 22 de abril de 2010",
+    "en": "Rondônia — Lei nº 2.291, de 22 de abril de 2010"
+   }
+  },
+  "rr-criacao-do-estado": {
+   "url": "https://diario.tjrr.jus.br/dpj/dpj-20251222.pdf",
+   "label": {
+    "pt": "Roraima — Portaria TJRR/PR nº 1.558, de 19 de dezembro de 2025 (calendário de 2026)",
+    "en": "Roraima — Roraima Court of Justice ordinance 1,558 of 19 December 2025 (2026 calendar)"
+   }
+  },
+  "sc-data-magna": {
+   "url": "https://www.sef.sc.gov.br/noticias/governo-do-estado-divulga-calendario-de-feriados-e-pontos-facultativos-de-2021",
+   "label": {
+    "pt": "Santa Catarina — Lei nº 17.335/2017 (comemoração no domingo), segundo a Secretaria da Fazenda de SC",
+    "en": "Santa Catarina — Law 17,335/2017 (observed on Sunday), as stated by the SC Finance Department"
+   }
+  },
+  "sp-revolucao-constitucionalista": {
+   "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1997/lei-9497-05.03.1997.html",
+   "label": {
+    "pt": "São Paulo — Lei estadual nº 9.497, de 5 de março de 1997",
+    "en": "São Paulo — Lei estadual nº 9.497, de 5 de março de 1997"
+   }
+  },
+  "se-emancipacao-politica": {
+   "url": "https://al.se.leg.br/wp-content/uploads/2023/08/constituicao_estadual_2019.pdf",
+   "label": {
+    "pt": "Sergipe — Constituição do Estado de Sergipe",
+    "en": "Sergipe — Constituição do Estado de Sergipe"
+   }
+  },
+  "to-senhor-do-bonfim": {
+   "url": "https://sapl.al.to.leg.br/media/sapl/public/normajuridica/2024/994/lei_4509-2024.pdf",
+   "label": {
+    "pt": "Tocantins — Lei nº 4.509, de 25 de setembro de 2024",
+    "en": "Tocantins — Lei nº 4.509, de 25 de setembro de 2024"
+   }
+  },
+  "to-nossa-senhora-da-natividade": {
+   "url": "https://www.al.to.leg.br/arquivos/6883.pdf",
+   "label": {
+    "pt": "Tocantins — Lei nº 627, de 28 de dezembro de 1993",
+    "en": "Tocantins — Lei nº 627, de 28 de dezembro de 1993"
+   }
+  },
+  "to-criacao-do-estado": {
+   "url": "https://www.al.to.leg.br/arquivos/6358.pdf",
+   "label": {
+    "pt": "Tocantins — Lei nº 098, de 17 de novembro de 1989",
+    "en": "Tocantins — Lei nº 098, de 17 de novembro de 1989"
+   }
+  },
+  "rio-branco-aniversario": {
+   "url": "https://sapl.riobranco.ac.leg.br/norma/106",
+   "label": {
+    "pt": "Rio Branco — Lei nº 1.557, de 5 de dezembro de 2005",
+    "en": "Rio Branco — Lei nº 1.557, de 5 de dezembro de 2005"
+   }
+  },
+  "rio-branco-dia-da-mulher": {
+   "url": "https://sapl.riobranco.ac.leg.br/norma/1348?display",
+   "label": {
+    "pt": "Rio Branco — Lei nº 1.156, de 31 de maio de 1994",
+    "en": "Rio Branco — Lei nº 1.156, de 31 de maio de 1994"
+   }
+  },
+  "maceio-sexta-feira-paixao": {
+   "url": "https://prefeitura.maceio.cloud/documentos/publicado_113955_2025-12-30_06189c1bdc56587096652c80836bfc76.pdf",
+   "label": {
+    "pt": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993",
+    "en": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993"
+   }
+  },
+  "maceio-corpus-christi": {
+   "url": "https://prefeitura.maceio.cloud/documentos/publicado_113955_2025-12-30_06189c1bdc56587096652c80836bfc76.pdf",
+   "label": {
+    "pt": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993",
+    "en": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993"
+   }
+  },
+  "maceio-29-junho": {
+   "url": "https://prefeitura.maceio.cloud/documentos/publicado_113955_2025-12-30_06189c1bdc56587096652c80836bfc76.pdf",
+   "label": {
+    "pt": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993",
+    "en": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993"
+   }
+  },
+  "maceio-nossa-senhora-dos-prazeres": {
+   "url": "https://prefeitura.maceio.cloud/documentos/publicado_113955_2025-12-30_06189c1bdc56587096652c80836bfc76.pdf",
+   "label": {
+    "pt": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993",
+    "en": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993"
+   }
+  },
+  "maceio-nossa-senhora-da-conceicao": {
+   "url": "https://prefeitura.maceio.cloud/documentos/publicado_113955_2025-12-30_06189c1bdc56587096652c80836bfc76.pdf",
+   "label": {
+    "pt": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993",
+    "en": "Maceió — Lei Municipal nº 1.391, de 16 de maio de 1967, e Decreto Municipal nº 5.164, de 28 de junho de 1993"
+   }
+  },
+  "manaus-terca-carnaval": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei nº 448, de 11 de novembro de 1998",
+    "en": "Manaus — Lei nº 448, de 11 de novembro de 1998"
+   }
+  },
+  "manaus-paixao-de-cristo": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei nº 1.001, de 10 de junho de 2006",
+    "en": "Manaus — Lei nº 1.001, de 10 de junho de 2006"
+   }
+  },
+  "manaus-corpus-christi": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei nº 970, de 11 de maio de 2006",
+    "en": "Manaus — Lei nº 970, de 11 de maio de 2006"
+   }
+  },
+  "manaus-elevacao-amazonas-provincia": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei Orgânica do Município de Manaus",
+    "en": "Manaus — Lei Orgânica do Município de Manaus"
+   }
+  },
+  "manaus-aniversario": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei Orgânica do Município de Manaus",
+    "en": "Manaus — Lei Orgânica do Município de Manaus"
+   }
+  },
+  "manaus-nossa-senhora-da-conceicao": {
+   "url": "https://www.manaus.am.gov.br/prefeitura/feriados-municipais/",
+   "label": {
+    "pt": "Manaus — Lei nº 496, de 5 de outubro de 1999",
+    "en": "Manaus — Lei nº 496, de 5 de outubro de 1999"
+   }
+  },
+  "fortaleza-sao-jose": {
+   "url": "https://sapl.fortaleza.ce.leg.br/norma/3331",
+   "label": {
+    "pt": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003",
+    "en": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003"
+   }
+  },
+  "fortaleza-nossa-senhora-da-assuncao": {
+   "url": "https://sapl.fortaleza.ce.leg.br/norma/3331",
+   "label": {
+    "pt": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003",
+    "en": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003"
+   }
+  },
+  "fortaleza-sexta-feira-santa": {
+   "url": "https://sapl.fortaleza.ce.leg.br/norma/3331",
+   "label": {
+    "pt": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003",
+    "en": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003"
+   }
+  },
+  "fortaleza-corpus-christi": {
+   "url": "https://sapl.fortaleza.ce.leg.br/norma/3331",
+   "label": {
+    "pt": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003",
+    "en": "Fortaleza — Lei nº 8.796, de 9 de dezembro de 2003"
+   }
+  },
+  "sao-paulo-aniversario": {
+   "url": "https://saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf",
+   "label": {
+    "pt": "São Paulo — Lei nº 14.485, de 19 de julho de 2007",
+    "en": "São Paulo — Lei nº 14.485, de 19 de julho de 2007"
+   }
+  },
+  "sao-paulo-paixao": {
+   "url": "https://saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf",
+   "label": {
+    "pt": "São Paulo — Lei nº 14.485, de 19 de julho de 2007",
+    "en": "São Paulo — Lei nº 14.485, de 19 de julho de 2007"
+   }
+  },
+  "sao-paulo-corpus-christi": {
+   "url": "https://saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf",
+   "label": {
+    "pt": "São Paulo — Lei nº 14.485, de 19 de julho de 2007",
+    "en": "São Paulo — Lei nº 14.485, de 19 de julho de 2007"
+   }
+  },
+  "sao-paulo-finados": {
+   "url": "https://saopaulo.sp.leg.br/iah/fulltext/leis/L14485.pdf",
+   "label": {
+    "pt": "São Paulo — Lei nº 14.485, de 19 de julho de 2007",
+    "en": "São Paulo — Lei nº 14.485, de 19 de julho de 2007"
+   }
+  },
+  "sao-paulo-consciencia-negra": {
+   "url": "https://saopaulo.sp.leg.br/iah/fulltext/leis/L13707.pdf",
+   "label": {
+    "pt": "São Paulo — Lei nº 13.707, de 7 de janeiro de 2004; consolidada na Lei nº 14.485/2007, arts. 9º e 10",
+    "en": "São Paulo — Lei nº 13.707, de 7 de janeiro de 2004; consolidada na Lei nº 14.485/2007, arts. 9º e 10"
+   }
+  },
+  "belo-horizonte-paixao": {
+   "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf",
+   "label": {
+    "pt": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022",
+    "en": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022"
+   }
+  },
+  "belo-horizonte-corpus-christi": {
+   "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf",
+   "label": {
+    "pt": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V",
+    "en": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V"
+   }
+  },
+  "belo-horizonte-assuncao": {
+   "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf",
+   "label": {
+    "pt": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V",
+    "en": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V"
+   }
+  },
+  "belo-horizonte-imaculada-conceicao": {
+   "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf",
+   "label": {
+    "pt": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V",
+    "en": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V"
+   }
+  },
+  "belo-horizonte-consciencia-negra": {
+   "url": "https://www8.tjmg.jus.br/institucional/at/pdf/pc17982026.pdf",
+   "label": {
+    "pt": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V",
+    "en": "Belo Horizonte — Lei nº 11.397, de 30 de agosto de 2022, Anexo V"
+   }
+  },
+  "curitiba-corpus-christi": {
+   "url": "https://www.cmc.pr.gov.br/noticias/gestao-da-camara/2026/camara-de-curitiba-retoma-expediente-apos-o-feriado-de-corpus-christi",
+   "label": {
+    "pt": "Curitiba — Lei nº 3.015, de 1967",
+    "en": "Curitiba — Lei nº 3.015, de 1967"
+   }
+  },
+  "curitiba-nossa-senhora-da-luz": {
+   "url": "https://www.cmc.pr.gov.br/noticias/gestao-da-camara/2026/camara-retoma-atividades-dia-9-apos-feriados-da-independencia-e-da-padroeira-de-curitiba",
+   "label": {
+    "pt": "Curitiba — Lei municipal não citada pela fonte oficial",
+    "en": "Curitiba — Lei municipal não citada pela fonte oficial"
+   }
+  },
+  "porto-alegre-navegantes": {
+   "url": "https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/2023/47024/lei_leg_13591_2023.pdf",
+   "label": {
+    "pt": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967",
+    "en": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967"
+   }
+  },
+  "porto-alegre-paixao": {
+   "url": "https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/sirel/Norma_4453_19780918_1.html",
+   "label": {
+    "pt": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967",
+    "en": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967"
+   }
+  },
+  "porto-alegre-corpus-christi": {
+   "url": "https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/sirel/Norma_4453_19780918_1.html",
+   "label": {
+    "pt": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967",
+    "en": "Porto Alegre — Lei nº 3.033, de 30 de junho de 1967"
+   }
+  },
+  "porto-alegre-finados": {
+   "url": "https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/2023/47024/lei_leg_13591_2023.pdf",
+   "label": {
+    "pt": "Porto Alegre — Lei nº 3.033/1967",
+    "en": "Porto Alegre — Lei nº 3.033/1967"
+   }
+  },
+  "porto-alegre-consciencia-negra": {
+   "url": "https://legislacao.portoalegre.rs.gov.br/media/sapl/public/normajuridica/sirel/Norma_9252_20031103_1.html",
+   "label": {
+    "pt": "Porto Alegre — Lei nº 9.252, de 3 de novembro de 2003; Lei nº 11.971, de 11 de dezembro de 2015",
+    "en": "Porto Alegre — Lei nº 9.252, de 3 de novembro de 2003; Lei nº 11.971, de 11 de dezembro de 2015"
+   }
+  },
+  "campo-grande-santo-antonio": {
+   "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/saude-confira-o-que-abre-e-fecha-neste-feriado-de-santo-antonio/",
+   "label": {
+    "pt": "Campo Grande — Prefeitura de Campo Grande, comunicado oficial (lei municipal não citada)",
+    "en": "Campo Grande — Campo Grande city hall, official notice (municipal law not cited)"
+   }
+  },
+  "campo-grande-aniversario": {
+   "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/transporte-publico-tera-operacao-especial-no-aniversario-de-campo-grande/",
+   "label": {
+    "pt": "Campo Grande — Prefeitura de Campo Grande, comunicado oficial (lei municipal não citada)",
+    "en": "Campo Grande — Campo Grande city hall, official notice (municipal law not cited)"
+   }
+  },
+  "cuiaba-fundacao": {
+   "url": "https://gazetamunicipal.cuiaba.mt.gov.br/api/editions/viewPdf/11540",
+   "label": {
+    "pt": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012",
+    "en": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012"
+   }
+  },
+  "cuiaba-corpus-christi": {
+   "url": "https://gazetamunicipal.cuiaba.mt.gov.br/api/editions/viewPdf/11540",
+   "label": {
+    "pt": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012",
+    "en": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012"
+   }
+  },
+  "cuiaba-imaculada-conceicao": {
+   "url": "https://gazetamunicipal.cuiaba.mt.gov.br/api/editions/viewPdf/11540",
+   "label": {
+    "pt": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012",
+    "en": "Cuiabá — Leis municipais nº 1.077/1968, nº 3.991/2000 e nº 5.576, de 24 de agosto de 2012"
+   }
+  },
+  "joao-pessoa-sexta-feira-paixao": {
+   "url": "https://sapl.joaopessoa.pb.leg.br/media/sapl/public/normajuridica/2019/18034/lei_no_13.768_-2019.pdf",
+   "label": {
+    "pt": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019",
+    "en": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019"
+   }
+  },
+  "joao-pessoa-sao-joao": {
+   "url": "https://sapl.joaopessoa.pb.leg.br/media/sapl/public/normajuridica/2019/18034/lei_no_13.768_-2019.pdf",
+   "label": {
+    "pt": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019",
+    "en": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019"
+   }
+  },
+  "joao-pessoa-nossa-senhora-das-neves": {
+   "url": "https://sapl.joaopessoa.pb.leg.br/media/sapl/public/normajuridica/2019/18034/lei_no_13.768_-2019.pdf",
+   "label": {
+    "pt": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019",
+    "en": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019"
+   }
+  },
+  "joao-pessoa-nossa-senhora-conceicao": {
+   "url": "https://sapl.joaopessoa.pb.leg.br/media/sapl/public/normajuridica/2019/18034/lei_no_13.768_-2019.pdf",
+   "label": {
+    "pt": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019",
+    "en": "João Pessoa — Lei nº 13.768, de 4 de julho de 2019"
+   }
+  },
+  "recife-sao-joao": {
+   "url": "https://www.trf5.jus.br/index.php/feriados",
+   "label": {
+    "pt": "Recife — Lei Municipal nº 9.777, de 1967",
+    "en": "Recife — Lei Municipal nº 9.777, de 1967"
+   }
+  },
+  "recife-nossa-senhora-do-carmo": {
+   "url": "https://www.trf5.jus.br/index.php/feriados",
+   "label": {
+    "pt": "Recife — Lei Municipal nº 9.777, de 1967",
+    "en": "Recife — Lei Municipal nº 9.777, de 1967"
+   }
+  },
+  "teresina-sexta-feira-paixao": {
+   "url": "http://200.23.153.37/acervodigital/norma/arq_dw?doc_id=3988&arq_id=2426",
+   "label": {
+    "pt": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994",
+    "en": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994"
+   }
+  },
+  "teresina-corpus-christi": {
+   "url": "http://200.23.153.37/acervodigital/norma/arq_dw?doc_id=3988&arq_id=2426",
+   "label": {
+    "pt": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994",
+    "en": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994"
+   }
+  },
+  "teresina-aniversario": {
+   "url": "http://200.23.153.37/acervodigital/norma/arq_dw?doc_id=3988&arq_id=2426",
+   "label": {
+    "pt": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994",
+    "en": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994"
+   }
+  },
+  "teresina-finados": {
+   "url": "http://200.23.153.37/acervodigital/norma/arq_dw?doc_id=3988&arq_id=2426",
+   "label": {
+    "pt": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994",
+    "en": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994"
+   }
+  },
+  "teresina-nossa-senhora-conceicao": {
+   "url": "http://200.23.153.37/acervodigital/norma/arq_dw?doc_id=3988&arq_id=2426",
+   "label": {
+    "pt": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994",
+    "en": "Teresina — Lei nº 2.275, de 11 de janeiro de 1994"
+   }
+  },
+  "natal-santos-reis": {
+   "url": "https://sapl.natal.rn.leg.br/media/sapl/public/normajuridica/1967/3397/lei01617-67.pdf",
+   "label": {
+    "pt": "Natal — Lei nº 1.617, de 17 de janeiro de 1967",
+    "en": "Natal — Lei nº 1.617, de 17 de janeiro de 1967"
+   }
+  },
+  "natal-sexta-feira-paixao": {
+   "url": "https://sapl.natal.rn.leg.br/media/sapl/public/normajuridica/1967/3397/lei01617-67.pdf",
+   "label": {
+    "pt": "Natal — Lei nº 1.617, de 17 de janeiro de 1967",
+    "en": "Natal — Lei nº 1.617, de 17 de janeiro de 1967"
+   }
+  },
+  "natal-corpus-christi": {
+   "url": "https://sapl.natal.rn.leg.br/media/sapl/public/normajuridica/1967/3397/lei01617-67.pdf",
+   "label": {
+    "pt": "Natal — Lei nº 1.617, de 17 de janeiro de 1967",
+    "en": "Natal — Lei nº 1.617, de 17 de janeiro de 1967"
+   }
+  },
+  "natal-nossa-senhora-apresentacao": {
+   "url": "https://sapl.natal.rn.leg.br/media/sapl/public/normajuridica/1967/3397/lei01617-67.pdf",
+   "label": {
+    "pt": "Natal — Lei nº 1.617, de 17 de janeiro de 1967",
+    "en": "Natal — Lei nº 1.617, de 17 de janeiro de 1967"
+   }
+  },
+  "natal-consciencia-negra": {
+   "url": "https://sapl.natal.rn.leg.br/media/sapl/public/normajuridica/2014/8503/lei06458-14.pdf",
+   "label": {
+    "pt": "Natal — Lei nº 6.458, de 28 de abril de 2014",
+    "en": "Natal — Lei nº 6.458, de 28 de abril de 2014"
+   }
+  },
+  "porto-velho-sao-francisco-de-sales": {
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/1980/4274/lei_190_14-10-1980.pdf",
+   "label": {
+    "pt": "Porto Velho — Lei nº 190, de 14 de outubro de 1980",
+    "en": "Porto Velho — Lei nº 190, de 14 de outubro de 1980"
+   }
+  },
+  "porto-velho-nossa-senhora-auxiliadora": {
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/1980/4274/lei_190_14-10-1980.pdf",
+   "label": {
+    "pt": "Porto Velho — Lei nº 190, de 14 de outubro de 1980",
+    "en": "Porto Velho — Lei nº 190, de 14 de outubro de 1980"
+   }
+  },
+  "porto-velho-santa-terezinha-criacao": {
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/1980/4274/lei_190_14-10-1980.pdf",
+   "label": {
+    "pt": "Porto Velho — Lei nº 190, de 14 de outubro de 1980",
+    "en": "Porto Velho — Lei nº 190, de 14 de outubro de 1980"
+   }
+  },
+  "porto-velho-sexta-feira-paixao": {
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/1980/4274/lei_190_14-10-1980.pdf",
+   "label": {
+    "pt": "Porto Velho — Lei nº 190, de 14 de outubro de 1980",
+    "en": "Porto Velho — Lei nº 190, de 14 de outubro de 1980"
+   }
+  },
+  "porto-velho-consciencia-negra": {
+   "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2024/26880/lei_no_3.196_de_02.07.2024_promulgada.pdf",
+   "label": {
+    "pt": "Porto Velho — Lei nº 3.196, de 2 de julho de 2024",
+    "en": "Porto Velho — Lei nº 3.196, de 2 de julho de 2024"
+   }
+  },
+  "boa-vista-sao-sebastiao": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/1984/916/lei_no_104_de_03_de_setembro_de_1984.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 104, de 6 de setembro de 1984",
+    "en": "Boa Vista — Lei nº 104, de 6 de setembro de 1984"
+   }
+  },
+  "boa-vista-sexta-feira-paixao": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/1984/916/lei_no_104_de_03_de_setembro_de_1984.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 104, de 6 de setembro de 1984",
+    "en": "Boa Vista — Lei nº 104, de 6 de setembro de 1984"
+   }
+  },
+  "boa-vista-sao-pedro": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/1984/916/lei_no_104_de_03_de_setembro_de_1984.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 104, de 6 de setembro de 1984",
+    "en": "Boa Vista — Lei nº 104, de 6 de setembro de 1984"
+   }
+  },
+  "boa-vista-aniversario": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/1990/1069/lei_no_227_de_06_de_julho_de_1990.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 227, de 6 de julho de 1990",
+    "en": "Boa Vista — Lei nº 227, de 6 de julho de 1990"
+   }
+  },
+  "boa-vista-imaculada-conceicao": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/1984/916/lei_no_104_de_03_de_setembro_de_1984.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 104, de 6 de setembro de 1984",
+    "en": "Boa Vista — Lei nº 104, de 6 de setembro de 1984"
+   }
+  },
+  "boa-vista-consciencia-negra": {
+   "url": "https://sapl.boavista.rr.leg.br/media/sapl/public/normajuridica/2016/318/318_texto_integral.pdf",
+   "label": {
+    "pt": "Boa Vista — Lei nº 1.705, de 14 de junho de 2016",
+    "en": "Boa Vista — Lei nº 1.705, de 14 de junho de 2016"
+   }
+  },
+  "aracaju-aniversario": {
+   "url": "http://190.15.122.10:8080/sapl/sapl_documentos/norma_juridica/5783_texto_integral",
+   "label": {
+    "pt": "Aracaju — Lei nº 1.358, de 9 de maio de 1988",
+    "en": "Aracaju — Lei nº 1.358, de 9 de maio de 1988"
+   }
+  },
+  "aracaju-corpus-christi": {
+   "url": "http://190.15.122.10:8080/sapl/sapl_documentos/norma_juridica/5783_texto_integral",
+   "label": {
+    "pt": "Aracaju — Lei nº 1.358/1988",
+    "en": "Aracaju — Lei nº 1.358/1988"
+   }
+  },
+  "aracaju-sao-joao": {
+   "url": "http://190.15.122.10:8080/sapl/sapl_documentos/norma_juridica/5783_texto_integral",
+   "label": {
+    "pt": "Aracaju — Lei nº 3.805, de 3 de dezembro de 2009",
+    "en": "Aracaju — Lei nº 3.805, de 3 de dezembro de 2009"
+   }
+  },
+  "aracaju-nossa-senhora-conceicao": {
+   "url": "http://190.15.122.10:8080/sapl/sapl_documentos/norma_juridica/5783_texto_integral",
+   "label": {
+    "pt": "Aracaju — Lei nº 1.358/1988",
+    "en": "Aracaju — Lei nº 1.358/1988"
+   }
+  },
+  "palmas-sao-jose": {
+   "url": "https://legislativo.palmas.to.gov.br/media/leis/LEI%20ORDINARIA%20N%C2%BA%20577%20de%2002-04-1996%2013-18-58.pdf",
+   "label": {
+    "pt": "Palmas — Lei nº 577, de 2 de abril de 1996",
+    "en": "Palmas — Lei nº 577, de 2 de abril de 1996"
+   }
+  },
+  "palmas-sexta-feira-santa": {
+   "url": "https://legislativo.palmas.to.gov.br/media/leis/LEI%20ORDINARIA%20N%C2%BA%20577%20de%2002-04-1996%2013-18-58.pdf",
+   "label": {
+    "pt": "Palmas — Lei nº 577, de 2 de abril de 1996",
+    "en": "Palmas — Lei nº 577, de 2 de abril de 1996"
+   }
+  },
+  "palmas-aniversario": {
+   "url": "https://legislativo.palmas.to.gov.br/media/leis/LEI%20ORDINARIA%20N%C2%BA%20108%20de%2015-05-1991%207-5-52.pdf",
+   "label": {
+    "pt": "Palmas — Lei nº 108, de 15 de maio de 1991; mantido pelo art. 2º da Lei nº 577, de 2 de abril de 1996",
+    "en": "Palmas — Lei nº 108, de 15 de maio de 1991; mantido pelo art. 2º da Lei nº 577, de 2 de abril de 1996"
+   }
+  },
+  "palmas-finados": {
+   "url": "https://legislativo.palmas.to.gov.br/media/leis/LEI%20ORDINARIA%20N%C2%BA%20577%20de%2002-04-1996%2013-18-58.pdf",
+   "label": {
+    "pt": "Palmas — Lei nº 577, de 2 de abril de 1996",
+    "en": "Palmas — Lei nº 577, de 2 de abril de 1996"
+   }
+  }
+ }
+}

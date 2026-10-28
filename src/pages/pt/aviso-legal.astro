@@ -1,0 +1,35 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CLARITY_ID, CONTACT_EMAIL, GA4_ID, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'pt';
+const title = `Aviso legal – ${SITE_NAMES[lang]}`;
+const description = 'Editor, responsável pelo conteúdo, provedor, ausência de aconselhamento, propriedade intelectual, dados pessoais e lei aplicável a este site.';
+---
+{/* Página escrita à mão a partir do modelo da trame (gen-legal-pages.py não trata o português). Mesmos fatos. */}
+<PageLayout title={title} description={description} lang={lang} noindex={true} breadcrumbs={[{ label: 'Aviso legal' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Aviso legal</h1>
+    <p>Informações sobre o editor e as condições de uso de {SITE_URL}.</p>
+    <h2>Editor</h2>
+    <LegalIdentity lang={lang} />
+    <p>Responsável pelo conteúdo: {AUTHOR_NAME}, pelo que é publicado em {SITE_URL}.</p>
+    <h2>Provedor de hospedagem</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Objetivo do site e ausência de aconselhamento</h2>
+    <p>O site oferece calculadoras e guias gratuitos, para informação. Os resultados se baseiam nas leis e normas oficiais citadas em cada página; não são aconselhamento pessoal, nem decisão, nem compromisso de nenhum órgão público. Método e limites: <a href={route('method', lang)}>método</a>.</p>
+    <h2>Responsabilidade</h2>
+    <p>As regras são atualizadas e os cálculos conferidos com casos de referência, sem garantia de ausência de erros. O editor não responde por uma decisão tomada só com base num resultado do site. Avise erros pela página de <a href={route('contact', lang)}>contato</a>.</p>
+    <h2>Propriedade intelectual</h2>
+    <p>Textos, design e código pertencem ao editor; citações curtas com link para a página original são bem-vindas.</p>
+    {/* gen-legal-pages:terms */}
+    <h2>Dados pessoais e cookies</h2>
+    {GA4_ID ? (<p>O que você digita nas calculadoras fica no seu navegador. O site grava cookies de medição de audiência do Google Analytics (<code>_ga</code>, <code>_ga_{GA4_ID.replace('G-', '')}</code>, 13 meses no máximo), sem publicidade{CLARITY_ID && '; a estabilidade das páginas é acompanhada com o Microsoft Clarity, sem cookies'}. Detalhes, base legal e como recusar: <a href={route('privacy', lang)}>política de privacidade</a> e página de <a href={route('cookies', lang)}>cookies</a>.</p>) : (<p>O que você digita nas calculadoras fica no seu navegador e o site não grava cookies{CLARITY_ID && '; a estabilidade das páginas é acompanhada de forma anônima com o Microsoft Clarity, sem cookies'}. Veja a <a href={route('privacy', lang)}>política de privacidade</a> e a página de <a href={route('cookies', lang)}>cookies</a>.</p>)}
+    {/* /gen-legal-pages:terms */}
+    <h2>Denúncia de conteúdo</h2>
+    <p>Denuncie conteúdo ilícito para <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, com o endereço da página e o motivo.</p>
+    <h2>Lei aplicável</h2>
+    <p>Lei francesa, sem prejuízo dos direitos que a lei brasileira garante ao consumidor. Sem acordo amigável, os tribunais competentes de {LEGAL.jurisdiction}. Última atualização: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

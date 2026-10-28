@@ -1,0 +1,16 @@
+---
+/** L'outil d'une page : un simulateur déclaratif de tool-specs.ts, le calendrier annuel, le próximo feriado ou le compte à rebours. */
+import SpecTool from './calc/SpecTool';
+import Kalender from './br/Kalender';
+import Proximo from './br/Proximo';
+import Faltam from './br/Faltam';
+import { route } from '../i18n/routes';
+import type { Lang } from '../lib/format';
+interface Props { kind: string; lang: Lang; arg?: Record<string, number | string>; idPrefix?: string }
+const { kind, lang, arg, idPrefix = 't' } = Astro.props;
+const methodHref = route('method', lang);
+---
+{kind === 'calendario' ? <Kalender client:load lang={lang} year={Number(arg?.ano ?? 2027)} uf={arg?.uf ? String(arg.uf) : undefined} methodHref={methodHref} idPrefix={idPrefix} />
+  : kind === 'proximo' ? <Proximo client:load lang={lang} uf={arg?.uf ? String(arg.uf) : undefined} methodHref={methodHref} idPrefix={idPrefix} />
+  : kind === 'faltam' ? <Faltam client:load lang={lang} evento={arg?.evento ? String(arg.evento) : undefined} methodHref={methodHref} idPrefix={idPrefix} />
+  : <SpecTool client:load kind={kind} lang={lang} arg={arg ? JSON.stringify(arg) : undefined} methodHref={methodHref} idPrefix={idPrefix} />}

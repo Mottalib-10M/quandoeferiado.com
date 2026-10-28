@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { CONTACT_EMAIL, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'pt';
+const description = 'Escreva para nós se um feriado, uma data ou uma lei estadual ou municipal parecer errado, ou se quiser incorporar a calculadora de feriados no seu site, de graça.';
+---
+<PageLayout title={`Contato ${SITE_NAMES[lang]}: avisar um erro, incorporar as ferramentas`} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contato', description, path: route('contact', lang), lang })]} breadcrumbs={[{ label: 'Contato' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contato</h1>
+    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Respondemos em geral em até uma semana.</p>
+    <h2>Um feriado ou uma data parece errado</h2>
+    <p>Diga a página, o estado ou a cidade, o ano e, se puder, o número da lei ou do decreto. Conferimos no texto oficial e corrigimos em poucos dias.</p>
+    <h2>Faltam os feriados da sua cidade</h2>
+    <p>Publicamos feriados municipais só das capitais cuja lei lemos. Mande a lei municipal ou o decreto da prefeitura para o ano e incluímos depois de conferir.</p>
+    <h2>Incorporar o próximo feriado</h2>
+    <p>Sindicatos, RH, escolas e jornais locais podem incorporar de graça o quadro do próximo feriado: <a href={route('widget', lang)}>Incorporar</a>.</p>
+    <h2>O que não fazemos</h2>
+    <p>Nada de orientação jurídica sobre trabalho em feriado ou pagamento, reserva de viagem ou calendário escolar.</p>
+  </div>
+</PageLayout>

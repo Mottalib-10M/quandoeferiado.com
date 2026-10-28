@@ -1,0 +1,2656 @@
+{
+ "_lisezmoi": "Généré par build-locais.py à partir de la recherche documentaire (2026-10-28). Ne pas éditer à la main : corriger la recherche ou overrides.json puis relancer.",
+ "lido_em": "2026-10-28",
+ "estados": {
+  "AC": {
+   "nome": "Acre",
+   "feriados": [
+    {
+     "id": "ac-dia-do-catolico",
+     "nome": {
+      "pt": "Dia do Católico",
+      "en": "Catholics' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 20
+     },
+     "esfera": "estadual",
+     "fonte": "ac-dia-do-catolico",
+     "desde": 2016
+    },
+    {
+     "id": "ac-dia-do-evangelico",
+     "nome": {
+      "pt": "Dia do Evangélico",
+      "en": "Evangelicals' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 23
+     },
+     "esfera": "estadual",
+     "fonte": "ac-dia-do-evangelico",
+     "desde": 2004
+    },
+    {
+     "id": "ac-dia-internacional-da-mulher",
+     "nome": {
+      "pt": "Dia Internacional da Mulher",
+      "en": "International Women's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 8
+     },
+     "esfera": "estadual",
+     "fonte": "ac-dia-internacional-da-mulher",
+     "desde": 2001
+    },
+    {
+     "id": "ac-aniversario-do-estado",
+     "nome": {
+      "pt": "Aniversário do Estado do Acre",
+      "en": "Acre Statehood Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 15
+     },
+     "esfera": "estadual",
+     "fonte": "ac-aniversario-do-estado",
+     "desde": 1964
+    },
+    {
+     "id": "ac-dia-da-amazonia",
+     "nome": {
+      "pt": "Dia da Amazônia",
+      "en": "Amazon Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 5
+     },
+     "esfera": "estadual",
+     "fonte": "ac-dia-da-amazonia",
+     "desde": 1968
+    },
+    {
+     "id": "ac-tratado-de-petropolis",
+     "nome": {
+      "pt": "Tratado de Petrópolis",
+      "en": "Treaty of Petrópolis Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 17
+     },
+     "esfera": "estadual",
+     "fonte": "ac-tratado-de-petropolis",
+     "desde": 1965
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Início da Revolução Acreana",
+     "motivo": "nao-feriado",
+     "mes_dia": [
+      8,
+      6
+     ]
+    },
+    {
+     "nome": "Dia do Servidor Público",
+     "motivo": "facultativo",
+     "mes_dia": [
+      10,
+      28
+     ]
+    }
+   ],
+   "transfere": {
+    "regra": "sexta",
+    "exceto": [
+     "ac-aniversario-do-estado"
+    ],
+    "fonte": "ac-lei-2126"
+   }
+  },
+  "AL": {
+   "nome": "Alagoas",
+   "feriados": [
+    {
+     "id": "al-sao-joao",
+     "nome": {
+      "pt": "São João",
+      "en": "Saint John's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 24
+     },
+     "esfera": "estadual",
+     "fonte": "al-sao-joao",
+     "desde": 1993
+    },
+    {
+     "id": "al-sao-pedro",
+     "nome": {
+      "pt": "São Pedro",
+      "en": "Saint Peter's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 29
+     },
+     "esfera": "estadual",
+     "fonte": "al-sao-pedro",
+     "desde": 1993
+    },
+    {
+     "id": "al-emancipacao-politica",
+     "nome": {
+      "pt": "Emancipação Política de Alagoas",
+      "en": "Alagoas Political Emancipation Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 16
+     },
+     "esfera": "estadual",
+     "fonte": "al-emancipacao-politica",
+     "desde": 2024
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia Estadual do Evangélico",
+     "motivo": "nao-feriado",
+     "mes_dia": [
+      11,
+      30
+     ]
+    }
+   ]
+  },
+  "AP": {
+   "nome": "Amapá",
+   "feriados": [
+    {
+     "id": "ap-sao-jose",
+     "nome": {
+      "pt": "Dia de São José, padroeiro do Amapá",
+      "en": "Saint Joseph's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 19
+     },
+     "esfera": "estadual",
+     "fonte": "ap-sao-jose",
+     "desde": 2002
+    },
+    {
+     "id": "ap-dia-de-cabralzinho",
+     "nome": {
+      "pt": "Dia de Cabralzinho",
+      "en": "Cabralzinho Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 5,
+      "dia": 15
+     },
+     "esfera": "estadual",
+     "fonte": "ap-dia-de-cabralzinho",
+     "desde": 2018
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Criação do Território Federal do Amapá",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      9,
+      13
+     ]
+    },
+    {
+     "nome": "Dia de São Tiago",
+     "motivo": "nao-feriado",
+     "mes_dia": [
+      7,
+      25
+     ]
+    },
+    {
+     "nome": "Criação do Estado do Amapá",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      10,
+      5
+     ]
+    }
+   ]
+  },
+  "AM": {
+   "nome": "Amazonas",
+   "feriados": [
+    {
+     "id": "am-elevacao-provincia",
+     "nome": {
+      "pt": "Elevação do Amazonas à Categoria de Província",
+      "en": "Amazonas Province Elevation Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 5
+     },
+     "esfera": "estadual",
+     "fonte": "am-elevacao-provincia",
+     "desde": 1977
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Homenagem a Getúlio Vargas",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      8,
+      24
+     ]
+    }
+   ]
+  },
+  "BA": {
+   "nome": "Bahia",
+   "feriados": [
+    {
+     "id": "ba-independencia-da-bahia",
+     "nome": {
+      "pt": "Independência da Bahia (Dois de Julho)",
+      "en": "Bahia Independence Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 7,
+      "dia": 2
+     },
+     "esfera": "estadual",
+     "fonte": "ba-independencia-da-bahia",
+     "desde": 1936
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia do Servidor Público",
+     "motivo": "facultativo",
+     "mes_dia": [
+      10,
+      28
+     ]
+    },
+    {
+     "nome": "Sexta-feira de Carnaval",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "CE": {
+   "nome": "Ceará",
+   "feriados": [
+    {
+     "id": "ce-data-magna",
+     "nome": {
+      "pt": "Data Magna do Ceará (Abolição da escravidão no Ceará)",
+      "en": "Ceará State Day (Abolition of Slavery in Ceará)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 25
+     },
+     "esfera": "estadual",
+     "fonte": "ce-data-magna",
+     "desde": 2012
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia de São José (padroeiro do Ceará)",
+     "motivo": "facultativo",
+     "mes_dia": [
+      3,
+      19
+     ]
+    }
+   ]
+  },
+  "DF": {
+   "nome": "Distrito Federal",
+   "feriados": [
+    {
+     "id": "df-fundacao-brasilia",
+     "nome": {
+      "pt": "Aniversário de Brasília (fundação de Brasília)",
+      "en": "Founding of Brasília"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 4,
+      "dia": 21
+     },
+     "esfera": "estadual",
+     "fonte": "df-fundacao-brasilia",
+     "desde": 1990
+    },
+    {
+     "id": "df-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "estadual",
+     "fonte": "df-corpus-christi",
+     "desde": 1990
+    },
+    {
+     "id": "df-dia-do-evangelico",
+     "nome": {
+      "pt": "Dia do Evangélico",
+      "en": "Evangelical Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 30
+     },
+     "esfera": "estadual",
+     "fonte": "df-dia-do-evangelico",
+     "desde": 1995
+    }
+   ],
+   "pendentes": []
+  },
+  "ES": {
+   "nome": "Espírito Santo",
+   "feriados": [
+    {
+     "id": "es-nossa-senhora-da-penha",
+     "nome": {
+      "pt": "Dia de Nossa Senhora da Penha (Data Magna do Espírito Santo)",
+      "en": "Our Lady of Penha Day (State Day)"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 8
+     },
+     "esfera": "estadual",
+     "fonte": "es-nossa-senhora-da-penha",
+     "desde": 2019
+    }
+   ],
+   "pendentes": []
+  },
+  "GO": {
+   "nome": "Goiás",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Fundação da Cidade de Goiás",
+     "motivo": "servidores",
+     "mes_dia": [
+      7,
+      26
+     ]
+    },
+    {
+     "nome": "Lançamento da pedra fundamental de Goiânia",
+     "motivo": "servidores",
+     "mes_dia": [
+      10,
+      24
+     ]
+    },
+    {
+     "nome": "Dia do Servidor Público (feriado estadual do serviço público)",
+     "motivo": "servidores",
+     "mes_dia": [
+      10,
+      28
+     ]
+    }
+   ]
+  },
+  "MA": {
+   "nome": "Maranhão",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Adesão do Maranhão à Independência do Brasil",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      7,
+      28
+     ]
+    }
+   ]
+  },
+  "MT": {
+   "nome": "Mato Grosso",
+   "feriados": [],
+   "pendentes": []
+  },
+  "MS": {
+   "nome": "Mato Grosso do Sul",
+   "feriados": [
+    {
+     "id": "ms-criacao-do-estado",
+     "nome": {
+      "pt": "Criação do Estado de Mato Grosso do Sul",
+      "en": "Mato Grosso do Sul Creation Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 11
+     },
+     "esfera": "estadual",
+     "fonte": "ms-criacao-do-estado",
+     "desde": 1979
+    }
+   ],
+   "pendentes": []
+  },
+  "MG": {
+   "nome": "Minas Gerais",
+   "feriados": [
+    {
+     "id": "mg-data-magna-tiradentes",
+     "nome": {
+      "pt": "Data magna do Estado – Dia de Tiradentes",
+      "en": "State Day (Tiradentes Day)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 4,
+      "dia": 21
+     },
+     "esfera": "estadual",
+     "fonte": "mg-data-magna-tiradentes",
+     "desde": 1989
+    }
+   ],
+   "pendentes": []
+  },
+  "PA": {
+   "nome": "Pará",
+   "feriados": [
+    {
+     "id": "pa-adesao-independencia",
+     "nome": {
+      "pt": "Adesão do Grão-Pará à Independência do Brasil",
+      "en": "Pará's Adherence to Brazilian Independence"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 15
+     },
+     "esfera": "estadual",
+     "fonte": "pa-adesao-independencia"
+    }
+   ],
+   "pendentes": []
+  },
+  "PB": {
+   "nome": "Paraíba",
+   "feriados": [
+    {
+     "id": "pb-fundacao-do-estado",
+     "nome": {
+      "pt": "Fundação do Estado da Paraíba (Data Magna)",
+      "en": "Paraíba Foundation Day (State Day)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 5
+     },
+     "esfera": "estadual",
+     "fonte": "pb-fundacao-do-estado",
+     "desde": 1967
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Homenagem ao ex-presidente João Pessoa",
+     "motivo": "revogado",
+     "mes_dia": [
+      7,
+      26
+     ]
+    },
+    {
+     "nome": "Dia dos Bancários e Economiários",
+     "motivo": "adi",
+     "mes_dia": [
+      8,
+      28
+     ]
+    },
+    {
+     "nome": "Dia do Empregado no Comércio",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      10,
+      30
+     ]
+    }
+   ]
+  },
+  "PR": {
+   "nome": "Paraná",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Emancipação Política do Paraná",
+     "motivo": "revogado",
+     "mes_dia": [
+      12,
+      19
+     ]
+    }
+   ]
+  },
+  "PE": {
+   "nome": "Pernambuco",
+   "feriados": [
+    {
+     "id": "pe-revolucao-pernambucana",
+     "nome": {
+      "pt": "Data Magna de Pernambuco (Revolução Pernambucana de 1817)",
+      "en": "Pernambuco State Day (Pernambuco Revolution of 1817)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 6
+     },
+     "esfera": "estadual",
+     "fonte": "pe-revolucao-pernambucana",
+     "desde": 2017
+    }
+   ],
+   "pendentes": []
+  },
+  "PI": {
+   "nome": "Piauí",
+   "feriados": [
+    {
+     "id": "pi-dia-do-piaui",
+     "nome": {
+      "pt": "Dia do Piauí",
+      "en": "Piauí Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 19
+     },
+     "esfera": "estadual",
+     "fonte": "pi-dia-do-piaui",
+     "desde": 1937
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Batalha do Jenipapo",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      3,
+      13
+     ]
+    }
+   ]
+  },
+  "RJ": {
+   "nome": "Rio de Janeiro",
+   "feriados": [
+    {
+     "id": "rj-carnaval-terca",
+     "nome": {
+      "pt": "Terça-feira de Carnaval",
+      "en": "Carnival Tuesday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -47
+     },
+     "esfera": "estadual",
+     "fonte": "rj-carnaval-terca",
+     "desde": 2008
+    },
+    {
+     "id": "rj-sao-jorge",
+     "nome": {
+      "pt": "Dia de São Jorge",
+      "en": "Saint George's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 4,
+      "dia": 23
+     },
+     "esfera": "estadual",
+     "fonte": "rj-sao-jorge",
+     "desde": 2008
+    },
+    {
+     "id": "rj-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "estadual",
+     "fonte": "rj-corpus-christi",
+     "desde": 2025
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Quarta-feira de Cinzas (feriado bancário)",
+     "motivo": "adi",
+     "mes_dia": null
+    },
+    {
+     "nome": "Dia das Mães (segundo domingo de maio)",
+     "motivo": "adi",
+     "mes_dia": null
+    }
+   ]
+  },
+  "RN": {
+   "nome": "Rio Grande do Norte",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Mártires de Cunhaú e Uruaçu",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      10,
+      3
+     ]
+    }
+   ]
+  },
+  "RS": {
+   "nome": "Rio Grande do Sul",
+   "feriados": [
+    {
+     "id": "rs-revolucao-farroupilha",
+     "nome": {
+      "pt": "Revolução Farroupilha (Data Magna do Estado)",
+      "en": "Ragamuffin War Day (State Day)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 20
+     },
+     "esfera": "estadual",
+     "fonte": "rs-revolucao-farroupilha",
+     "desde": 1995
+    }
+   ],
+   "pendentes": []
+  },
+  "RO": {
+   "nome": "Rondônia",
+   "feriados": [
+    {
+     "id": "ro-criacao-do-estado",
+     "nome": {
+      "pt": "Instalação/Criação do Estado de Rondônia (Data Magna)",
+      "en": "Rondônia Statehood Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 4
+     },
+     "esfera": "estadual",
+     "fonte": "ro-criacao-do-estado",
+     "desde": 2010
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia do Evangélico",
+     "motivo": "adi",
+     "mes_dia": [
+      6,
+      18
+     ]
+    },
+    {
+     "nome": "Segunda-feira de Carnaval – Dia do Comerciário",
+     "motivo": "revogado",
+     "mes_dia": null
+    }
+   ]
+  },
+  "RR": {
+   "nome": "Roraima",
+   "feriados": [
+    {
+     "id": "rr-criacao-do-estado",
+     "nome": {
+      "pt": "Aniversário/Criação do Estado de Roraima",
+      "en": "Roraima Statehood Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 5
+     },
+     "esfera": "estadual",
+     "fonte": "rr-criacao-do-estado",
+     "desde": 1989
+    }
+   ],
+   "pendentes": []
+  },
+  "SC": {
+   "nome": "Santa Catarina",
+   "feriados": [
+    {
+     "id": "sc-data-magna",
+     "nome": {
+      "pt": "Dia do Estado de Santa Catarina (11 de agosto, comemorado no domingo seguinte)",
+      "en": "Santa Catarina State Day (11 August, observed the following Sunday)"
+     },
+     "regra": {
+      "tipo": "data",
+      "datas": [
+       "2026-08-16",
+       "2027-08-15",
+       "2028-08-13"
+      ]
+     },
+     "esfera": "estadual",
+     "fonte": "sc-data-magna",
+     "desde": 1996
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Santa Catarina de Alexandria (padroeira)",
+     "motivo": "projeto",
+     "mes_dia": [
+      11,
+      25
+     ]
+    }
+   ]
+  },
+  "SP": {
+   "nome": "São Paulo",
+   "feriados": [
+    {
+     "id": "sp-revolucao-constitucionalista",
+     "nome": {
+      "pt": "Revolução Constitucionalista de 1932 (data magna)",
+      "en": "Constitutionalist Revolution of 1932"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 7,
+      "dia": 9
+     },
+     "esfera": "estadual",
+     "fonte": "sp-revolucao-constitucionalista",
+     "desde": 1997
+    }
+   ],
+   "pendentes": []
+  },
+  "SE": {
+   "nome": "Sergipe",
+   "feriados": [
+    {
+     "id": "se-emancipacao-politica",
+     "nome": {
+      "pt": "Emancipação Política de Sergipe (Independência de Sergipe)",
+      "en": "Sergipe Political Emancipation Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 7,
+      "dia": 8
+     },
+     "esfera": "estadual",
+     "fonte": "se-emancipacao-politica",
+     "desde": 1989
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Independência de Sergipe (comemoração popular)",
+     "motivo": "nao-feriado",
+     "mes_dia": [
+      10,
+      24
+     ]
+    }
+   ]
+  },
+  "TO": {
+   "nome": "Tocantins",
+   "feriados": [
+    {
+     "id": "to-senhor-do-bonfim",
+     "nome": {
+      "pt": "Dia do Senhor do Bonfim",
+      "en": "Lord of Bonfim Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 15
+     },
+     "esfera": "estadual",
+     "fonte": "to-senhor-do-bonfim",
+     "desde": 2025
+    },
+    {
+     "id": "to-nossa-senhora-da-natividade",
+     "nome": {
+      "pt": "Nossa Senhora da Natividade, padroeira do Tocantins",
+      "en": "Our Lady of the Nativity Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 8
+     },
+     "esfera": "estadual",
+     "fonte": "to-nossa-senhora-da-natividade",
+     "desde": 1993
+    },
+    {
+     "id": "to-criacao-do-estado",
+     "nome": {
+      "pt": "Criação do Estado do Tocantins",
+      "en": "Tocantins Statehood Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 5
+     },
+     "esfera": "estadual",
+     "fonte": "to-criacao-do-estado",
+     "desde": 1989
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia da Autonomia do Tocantins",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      3,
+      18
+     ]
+    }
+   ]
+  }
+ },
+ "capitais": {
+  "AC": {
+   "nome": "Rio Branco",
+   "municipio": "Rio Branco",
+   "feriados": [
+    {
+     "id": "rio-branco-aniversario",
+     "nome": {
+      "pt": "Aniversário de Rio Branco (Fundação da Cidade)",
+      "en": "Rio Branco City Founding Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 28
+     },
+     "esfera": "municipal",
+     "fonte": "rio-branco-aniversario",
+     "desde": 2006
+    },
+    {
+     "id": "rio-branco-dia-da-mulher",
+     "nome": {
+      "pt": "Dia Internacional da Mulher",
+      "en": "International Women's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "rio-branco-dia-da-mulher",
+     "desde": 1994
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Feriados da Lei nº 7, de 14 de julho de 1964 ('Dispõe s/ feriados municipais')",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    },
+    {
+     "nome": "Corpus Christi",
+     "motivo": "facultativo",
+     "mes_dia": null
+    }
+   ]
+  },
+  "AL": {
+   "nome": "Maceió",
+   "municipio": "Maceió",
+   "feriados": [
+    {
+     "id": "maceio-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "maceio-sexta-feira-paixao"
+    },
+    {
+     "id": "maceio-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "maceio-corpus-christi"
+    },
+    {
+     "id": "maceio-29-junho",
+     "nome": {
+      "pt": "Feriado municipal de 29 de junho",
+      "en": "29 June municipal holiday"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 29
+     },
+     "esfera": "municipal",
+     "fonte": "maceio-29-junho"
+    },
+    {
+     "id": "maceio-nossa-senhora-dos-prazeres",
+     "nome": {
+      "pt": "Nossa Senhora dos Prazeres (padroeira de Maceió)",
+      "en": "Our Lady of Prazeres (patron saint of Maceió)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 27
+     },
+     "esfera": "municipal",
+     "fonte": "maceio-nossa-senhora-dos-prazeres"
+    },
+    {
+     "id": "maceio-nossa-senhora-da-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "maceio-nossa-senhora-da-conceicao"
+    }
+   ],
+   "pendentes": []
+  },
+  "AP": {
+   "nome": "Macapá",
+   "municipio": "Macapá",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Aniversário de Macapá",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      2,
+      4
+     ]
+    },
+    {
+     "nome": "São José (padroeiro de Macapá)",
+     "motivo": "municipal",
+     "mes_dia": [
+      3,
+      19
+     ]
+    }
+   ]
+  },
+  "AM": {
+   "nome": "Manaus",
+   "municipio": "Manaus",
+   "feriados": [
+    {
+     "id": "manaus-terca-carnaval",
+     "nome": {
+      "pt": "Terça-feira de Carnaval",
+      "en": "Carnival Tuesday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -47
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-terca-carnaval",
+     "desde": 1998
+    },
+    {
+     "id": "manaus-paixao-de-cristo",
+     "nome": {
+      "pt": "Paixão de Cristo (Sexta-feira Santa)",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-paixao-de-cristo",
+     "desde": 2006
+    },
+    {
+     "id": "manaus-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-corpus-christi",
+     "desde": 2006
+    },
+    {
+     "id": "manaus-elevacao-amazonas-provincia",
+     "nome": {
+      "pt": "Elevação do Amazonas à categoria de Província",
+      "en": "Amazonas Province Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 5
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-elevacao-amazonas-provincia"
+    },
+    {
+     "id": "manaus-aniversario",
+     "nome": {
+      "pt": "Aniversário de Manaus (elevação à categoria de Cidade)",
+      "en": "Manaus City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-aniversario"
+    },
+    {
+     "id": "manaus-nossa-senhora-da-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição (padroeira)",
+      "en": "Immaculate Conception (Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "manaus-nossa-senhora-da-conceicao",
+     "desde": 1999
+    }
+   ],
+   "pendentes": []
+  },
+  "BA": {
+   "nome": "Salvador",
+   "municipio": "Salvador",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Corpus Christi",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    },
+    {
+     "nome": "São João",
+     "motivo": "municipal",
+     "mes_dia": [
+      6,
+      24
+     ]
+    },
+    {
+     "nome": "Nossa Senhora da Conceição da Praia",
+     "motivo": "municipal",
+     "mes_dia": [
+      12,
+      8
+     ]
+    },
+    {
+     "nome": "Sexta-feira Santa",
+     "motivo": "municipal",
+     "mes_dia": null
+    }
+   ]
+  },
+  "CE": {
+   "nome": "Fortaleza",
+   "municipio": "Fortaleza",
+   "feriados": [
+    {
+     "id": "fortaleza-sao-jose",
+     "nome": {
+      "pt": "Dia de São José",
+      "en": "Saint Joseph's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 19
+     },
+     "esfera": "municipal",
+     "fonte": "fortaleza-sao-jose",
+     "desde": 2003
+    },
+    {
+     "id": "fortaleza-nossa-senhora-da-assuncao",
+     "nome": {
+      "pt": "Nossa Senhora da Assunção (padroeira de Fortaleza)",
+      "en": "Assumption of Mary (Patron Saint of Fortaleza)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 15
+     },
+     "esfera": "municipal",
+     "fonte": "fortaleza-nossa-senhora-da-assuncao",
+     "desde": 2003
+    },
+    {
+     "id": "fortaleza-sexta-feira-santa",
+     "nome": {
+      "pt": "Sexta-feira Santa",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "fortaleza-sexta-feira-santa",
+     "desde": 2003
+    },
+    {
+     "id": "fortaleza-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "fortaleza-corpus-christi",
+     "desde": 2003
+    }
+   ],
+   "pendentes": []
+  },
+  "ES": {
+   "nome": "Vitória",
+   "municipio": "Vitória",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Nossa Senhora da Vitória / Aniversário de Vitória",
+     "motivo": "municipal",
+     "mes_dia": [
+      9,
+      8
+     ]
+    },
+    {
+     "nome": "Nossa Senhora da Penha",
+     "motivo": "municipal",
+     "mes_dia": null
+    },
+    {
+     "nome": "Paixão de Cristo (Sexta-feira Santa)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    },
+    {
+     "nome": "Corpus Christi",
+     "motivo": "municipal",
+     "mes_dia": null
+    }
+   ]
+  },
+  "GO": {
+   "nome": "Goiânia",
+   "municipio": "Goiânia",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Nossa Senhora Auxiliadora (padroeira)",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      5,
+      24
+     ]
+    },
+    {
+     "nome": "Aniversário de Goiânia",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      10,
+      24
+     ]
+    }
+   ]
+  },
+  "MA": {
+   "nome": "São Luís",
+   "municipio": "São Luís",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "São Pedro",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      6,
+      29
+     ]
+    },
+    {
+     "nome": "Aniversário de São Luís",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      9,
+      8
+     ]
+    },
+    {
+     "nome": "Nossa Senhora da Conceição",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      12,
+      8
+     ]
+    }
+   ]
+  },
+  "SP": {
+   "nome": "São Paulo",
+   "municipio": "São Paulo",
+   "feriados": [
+    {
+     "id": "sao-paulo-aniversario",
+     "nome": {
+      "pt": "Aniversário de São Paulo",
+      "en": "São Paulo City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 25
+     },
+     "esfera": "municipal",
+     "fonte": "sao-paulo-aniversario"
+    },
+    {
+     "id": "sao-paulo-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "sao-paulo-paixao",
+     "desde": 1967
+    },
+    {
+     "id": "sao-paulo-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "sao-paulo-corpus-christi",
+     "desde": 1967
+    },
+    {
+     "id": "sao-paulo-finados",
+     "nome": {
+      "pt": "Finados",
+      "en": "All Souls' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "sao-paulo-finados",
+     "desde": 1967
+    },
+    {
+     "id": "sao-paulo-consciencia-negra",
+     "nome": {
+      "pt": "Dia da Consciência Negra",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "sao-paulo-consciencia-negra",
+     "desde": 2004
+    }
+   ],
+   "pendentes": []
+  },
+  "RJ": {
+   "nome": "Rio de Janeiro",
+   "municipio": "Rio de Janeiro",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "São Sebastião (padroeiro da cidade do Rio de Janeiro)",
+     "motivo": "municipal",
+     "mes_dia": [
+      1,
+      20
+     ]
+    },
+    {
+     "nome": "Outros feriados municipais religiosos (Paixão, etc.)",
+     "motivo": "municipal",
+     "mes_dia": null
+    }
+   ]
+  },
+  "MG": {
+   "nome": "Belo Horizonte",
+   "municipio": "Belo Horizonte",
+   "feriados": [
+    {
+     "id": "belo-horizonte-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "belo-horizonte-paixao"
+    },
+    {
+     "id": "belo-horizonte-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "belo-horizonte-corpus-christi"
+    },
+    {
+     "id": "belo-horizonte-assuncao",
+     "nome": {
+      "pt": "Assunção de Nossa Senhora",
+      "en": "Assumption of Mary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 15
+     },
+     "esfera": "municipal",
+     "fonte": "belo-horizonte-assuncao"
+    },
+    {
+     "id": "belo-horizonte-imaculada-conceicao",
+     "nome": {
+      "pt": "Imaculada Conceição",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "belo-horizonte-imaculada-conceicao"
+    },
+    {
+     "id": "belo-horizonte-consciencia-negra",
+     "nome": {
+      "pt": "Dia da Consciência Negra",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "belo-horizonte-consciencia-negra"
+    }
+   ],
+   "pendentes": []
+  },
+  "PR": {
+   "nome": "Curitiba",
+   "municipio": "Curitiba",
+   "feriados": [
+    {
+     "id": "curitiba-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "curitiba-corpus-christi",
+     "desde": 1967
+    },
+    {
+     "id": "curitiba-nossa-senhora-da-luz",
+     "nome": {
+      "pt": "Nossa Senhora da Luz dos Pinhais (padroeira de Curitiba)",
+      "en": "Our Lady of Light of the Pines (Curitiba patron saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 9,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "curitiba-nossa-senhora-da-luz"
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Sexta-feira da Paixão (como feriado municipal)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "SC": {
+   "nome": "Florianópolis",
+   "municipio": "Florianópolis",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Aniversário de Florianópolis",
+     "motivo": "municipal",
+     "mes_dia": [
+      3,
+      23
+     ]
+    },
+    {
+     "nome": "Sexta-feira da Paixão / Corpus Christi / padroeira (Nossa Senhora do Desterro?)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "RS": {
+   "nome": "Porto Alegre",
+   "municipio": "Porto Alegre",
+   "feriados": [
+    {
+     "id": "porto-alegre-navegantes",
+     "nome": {
+      "pt": "Nossa Senhora dos Navegantes e Iemanjá",
+      "en": "Our Lady of Navigators and Iemanjá Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 2,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "porto-alegre-navegantes",
+     "desde": 1967
+    },
+    {
+     "id": "porto-alegre-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "porto-alegre-paixao",
+     "desde": 1967
+    },
+    {
+     "id": "porto-alegre-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "porto-alegre-corpus-christi",
+     "desde": 1967
+    },
+    {
+     "id": "porto-alegre-finados",
+     "nome": {
+      "pt": "Finados",
+      "en": "All Souls' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "porto-alegre-finados",
+     "desde": 1978
+    },
+    {
+     "id": "porto-alegre-consciencia-negra",
+     "nome": {
+      "pt": "Dia da Consciência Negra e da Difusão da Religiosidade",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "porto-alegre-consciencia-negra",
+     "desde": 2003
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Imaculada Conceição / Nossa Senhora da Conceição (8 de dezembro)",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      12,
+      8
+     ]
+    }
+   ]
+  },
+  "MS": {
+   "nome": "Campo Grande",
+   "municipio": "Campo Grande",
+   "feriados": [
+    {
+     "id": "campo-grande-santo-antonio",
+     "nome": {
+      "pt": "Santo Antônio (padroeiro de Campo Grande)",
+      "en": "Saint Anthony (Campo Grande patron saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 13
+     },
+     "esfera": "municipal",
+     "fonte": "campo-grande-santo-antonio"
+    },
+    {
+     "id": "campo-grande-aniversario",
+     "nome": {
+      "pt": "Aniversário de Campo Grande",
+      "en": "Campo Grande City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 26
+     },
+     "esfera": "municipal",
+     "fonte": "campo-grande-aniversario"
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Corpus Christi",
+     "motivo": "facultativo",
+     "mes_dia": null
+    }
+   ]
+  },
+  "MT": {
+   "nome": "Cuiabá",
+   "municipio": "Cuiabá",
+   "feriados": [
+    {
+     "id": "cuiaba-fundacao",
+     "nome": {
+      "pt": "Fundação da Cidade de Cuiabá",
+      "en": "Cuiabá City Founding Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 4,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "cuiaba-fundacao"
+    },
+    {
+     "id": "cuiaba-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "cuiaba-corpus-christi"
+    },
+    {
+     "id": "cuiaba-imaculada-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição (Imaculada Conceição)",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "cuiaba-imaculada-conceicao"
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Sexta-feira da Paixão (como feriado municipal)",
+     "motivo": "municipal",
+     "mes_dia": null
+    }
+   ]
+  },
+  "PA": {
+   "nome": "Belém",
+   "municipio": "Belém",
+   "feriados": [],
+   "pendentes": [
+    {
+     "nome": "Aniversário de Belém (fundação, 1616)",
+     "motivo": "municipal",
+     "mes_dia": [
+      1,
+      12
+     ]
+    },
+    {
+     "nome": "Nossa Senhora da Conceição",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      12,
+      8
+     ]
+    },
+    {
+     "nome": "Feriado da COP30 (6 e 7 de novembro de 2025)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "PB": {
+   "nome": "João Pessoa",
+   "municipio": "João Pessoa",
+   "feriados": [
+    {
+     "id": "joao-pessoa-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "joao-pessoa-sexta-feira-paixao",
+     "desde": 1999
+    },
+    {
+     "id": "joao-pessoa-sao-joao",
+     "nome": {
+      "pt": "Dia de São João",
+      "en": "Saint John's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "joao-pessoa-sao-joao",
+     "desde": 1999
+    },
+    {
+     "id": "joao-pessoa-nossa-senhora-das-neves",
+     "nome": {
+      "pt": "Nossa Senhora das Neves (Padroeira e fundação da cidade)",
+      "en": "Our Lady of the Snows (City Patron Saint and Founding Day)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 5
+     },
+     "esfera": "municipal",
+     "fonte": "joao-pessoa-nossa-senhora-das-neves",
+     "desde": 1999
+    },
+    {
+     "id": "joao-pessoa-nossa-senhora-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "joao-pessoa-nossa-senhora-conceicao",
+     "desde": 1999
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia dos Agentes Fiscais do Município",
+     "motivo": "revogado",
+     "mes_dia": [
+      3,
+      31
+     ]
+    }
+   ]
+  },
+  "PE": {
+   "nome": "Recife",
+   "municipio": "Recife",
+   "feriados": [
+    {
+     "id": "recife-sao-joao",
+     "nome": {
+      "pt": "São João",
+      "en": "Saint John's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "recife-sao-joao",
+     "desde": 1967
+    },
+    {
+     "id": "recife-nossa-senhora-do-carmo",
+     "nome": {
+      "pt": "Nossa Senhora do Carmo (Padroeira do Recife)",
+      "en": "Our Lady of Mount Carmel (City Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 7,
+      "dia": 16
+     },
+     "esfera": "municipal",
+     "fonte": "recife-nossa-senhora-do-carmo",
+     "desde": 1967
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Nossa Senhora da Conceição",
+     "motivo": "municipal",
+     "mes_dia": [
+      12,
+      8
+     ]
+    },
+    {
+     "nome": "Sexta-feira da Paixão (como feriado municipal)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "PI": {
+   "nome": "Teresina",
+   "municipio": "Teresina",
+   "feriados": [
+    {
+     "id": "teresina-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "teresina-sexta-feira-paixao",
+     "desde": 1999
+    },
+    {
+     "id": "teresina-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "teresina-corpus-christi",
+     "desde": 1999
+    },
+    {
+     "id": "teresina-aniversario",
+     "nome": {
+      "pt": "Aniversário de Teresina",
+      "en": "Teresina City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 8,
+      "dia": 16
+     },
+     "esfera": "municipal",
+     "fonte": "teresina-aniversario",
+     "desde": 1999
+    },
+    {
+     "id": "teresina-finados",
+     "nome": {
+      "pt": "Dia de Finados",
+      "en": "All Souls' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "teresina-finados",
+     "desde": 1999
+    },
+    {
+     "id": "teresina-nossa-senhora-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "teresina-nossa-senhora-conceicao",
+     "desde": 1999
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Texto original da Lei nº 2.275/1994 (caput do art. 1º)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "RN": {
+   "nome": "Natal",
+   "municipio": "Natal",
+   "feriados": [
+    {
+     "id": "natal-santos-reis",
+     "nome": {
+      "pt": "Santos Reis (Reis Magos)",
+      "en": "Epiphany (Three Kings' Day)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 6
+     },
+     "esfera": "municipal",
+     "fonte": "natal-santos-reis",
+     "desde": 1967
+    },
+    {
+     "id": "natal-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "natal-sexta-feira-paixao",
+     "desde": 1967
+    },
+    {
+     "id": "natal-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi (Corpo de Deus)",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "natal-corpus-christi",
+     "desde": 1967
+    },
+    {
+     "id": "natal-nossa-senhora-apresentacao",
+     "nome": {
+      "pt": "Nossa Senhora da Apresentação (Padroeira de Natal)",
+      "en": "Our Lady of the Presentation (City Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 21
+     },
+     "esfera": "municipal",
+     "fonte": "natal-nossa-senhora-apresentacao",
+     "desde": 1967
+    },
+    {
+     "id": "natal-consciencia-negra",
+     "nome": {
+      "pt": "Dia da Consciência Negra",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "natal-consciencia-negra",
+     "desde": 2014
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia do Alfaiate e Costureira (feriado 'à classe')",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      9,
+      6
+     ]
+    },
+    {
+     "nome": "Decreto de calendário 2026 da Prefeitura do Natal",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "RO": {
+   "nome": "Porto Velho",
+   "municipio": "Porto Velho",
+   "feriados": [
+    {
+     "id": "porto-velho-sao-francisco-de-sales",
+     "nome": {
+      "pt": "Dia de São Francisco de Sales (Instalação do Município de Porto Velho)",
+      "en": "Saint Francis de Sales Day (Porto Velho Municipality Installation)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "porto-velho-sao-francisco-de-sales",
+     "desde": 1980
+    },
+    {
+     "id": "porto-velho-nossa-senhora-auxiliadora",
+     "nome": {
+      "pt": "Nossa Senhora Auxiliadora (Padroeira do Município)",
+      "en": "Our Lady Help of Christians (City Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 5,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "porto-velho-nossa-senhora-auxiliadora",
+     "desde": 1980
+    },
+    {
+     "id": "porto-velho-santa-terezinha-criacao",
+     "nome": {
+      "pt": "Santa Terezinha do Menino Jesus / Criação do Município de Porto Velho",
+      "en": "Saint Thérèse of the Child Jesus / Porto Velho Founding Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 10,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "porto-velho-santa-terezinha-criacao",
+     "desde": 1980
+    },
+    {
+     "id": "porto-velho-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "porto-velho-sexta-feira-paixao",
+     "desde": 1980
+    },
+    {
+     "id": "porto-velho-consciencia-negra",
+     "nome": {
+      "pt": "Dia da Consciência Negra",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "porto-velho-consciencia-negra",
+     "desde": 2024
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Terça-feira de Carnaval e Quarta-feira de Cinzas",
+     "motivo": "adi",
+     "mes_dia": null
+    },
+    {
+     "nome": "Dia Internacional da Mulher (feriado 'a todas as mulheres')",
+     "motivo": "adi",
+     "mes_dia": [
+      3,
+      8
+     ]
+    },
+    {
+     "nome": "Dia do Professor (feriado aos professores)",
+     "motivo": "municipal",
+     "mes_dia": [
+      10,
+      15
+     ]
+    },
+    {
+     "nome": "Dia do Comerciário",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      10,
+      30
+     ]
+    }
+   ]
+  },
+  "RR": {
+   "nome": "Boa Vista",
+   "municipio": "Boa Vista",
+   "feriados": [
+    {
+     "id": "boa-vista-sao-sebastiao",
+     "nome": {
+      "pt": "São Sebastião",
+      "en": "Saint Sebastian's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 1,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-sao-sebastiao",
+     "desde": 1984
+    },
+    {
+     "id": "boa-vista-sexta-feira-paixao",
+     "nome": {
+      "pt": "Sexta-feira da Paixão",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-sexta-feira-paixao",
+     "desde": 1984
+    },
+    {
+     "id": "boa-vista-sao-pedro",
+     "nome": {
+      "pt": "São Pedro (e São Paulo)",
+      "en": "Saint Peter's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 29
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-sao-pedro",
+     "desde": 1984
+    },
+    {
+     "id": "boa-vista-aniversario",
+     "nome": {
+      "pt": "Aniversário de Boa Vista (Criação do Município)",
+      "en": "Boa Vista City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 7,
+      "dia": 9
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-aniversario",
+     "desde": 1990
+    },
+    {
+     "id": "boa-vista-imaculada-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição (Imaculada Conceição)",
+      "en": "Immaculate Conception"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-imaculada-conceicao",
+     "desde": 1984
+    },
+    {
+     "id": "boa-vista-consciencia-negra",
+     "nome": {
+      "pt": "Dia Municipal da Consciência Negra",
+      "en": "Black Consciousness Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "boa-vista-consciencia-negra",
+     "desde": 2016
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia do Comerciário (só para a categoria comerciária)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    }
+   ]
+  },
+  "SE": {
+   "nome": "Aracaju",
+   "municipio": "Aracaju",
+   "feriados": [
+    {
+     "id": "aracaju-aniversario",
+     "nome": {
+      "pt": "Aniversário de Aracaju (Mudança da Capital)",
+      "en": "Aracaju City Anniversary (Transfer of the State Capital)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 17
+     },
+     "esfera": "municipal",
+     "fonte": "aracaju-aniversario",
+     "desde": 1988
+    },
+    {
+     "id": "aracaju-corpus-christi",
+     "nome": {
+      "pt": "Corpus Christi",
+      "en": "Corpus Christi"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": 60
+     },
+     "esfera": "municipal",
+     "fonte": "aracaju-corpus-christi",
+     "desde": 2001
+    },
+    {
+     "id": "aracaju-sao-joao",
+     "nome": {
+      "pt": "Dia de São João",
+      "en": "Saint John's Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 6,
+      "dia": 24
+     },
+     "esfera": "municipal",
+     "fonte": "aracaju-sao-joao",
+     "desde": 2009
+    },
+    {
+     "id": "aracaju-nossa-senhora-conceicao",
+     "nome": {
+      "pt": "Nossa Senhora da Conceição (Padroeira da Cidade)",
+      "en": "Immaculate Conception (City Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 12,
+      "dia": 8
+     },
+     "esfera": "municipal",
+     "fonte": "aracaju-nossa-senhora-conceicao",
+     "desde": 1988
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Sexta-feira da Paixão (como feriado municipal)",
+     "motivo": "sem-fonte",
+     "mes_dia": null
+    },
+    {
+     "nome": "Feriado bancário de 28 de agosto",
+     "motivo": "sem-fonte",
+     "mes_dia": [
+      8,
+      28
+     ]
+    }
+   ]
+  },
+  "TO": {
+   "nome": "Palmas",
+   "municipio": "Palmas",
+   "feriados": [
+    {
+     "id": "palmas-sao-jose",
+     "nome": {
+      "pt": "São José (Padroeiro de Palmas)",
+      "en": "Saint Joseph's Day (City Patron Saint)"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 3,
+      "dia": 19
+     },
+     "esfera": "municipal",
+     "fonte": "palmas-sao-jose",
+     "desde": 1996
+    },
+    {
+     "id": "palmas-sexta-feira-santa",
+     "nome": {
+      "pt": "Sexta-feira Santa",
+      "en": "Good Friday"
+     },
+     "regra": {
+      "tipo": "pascoa",
+      "offset": -2
+     },
+     "esfera": "municipal",
+     "fonte": "palmas-sexta-feira-santa",
+     "desde": 1996
+    },
+    {
+     "id": "palmas-aniversario",
+     "nome": {
+      "pt": "Aniversário de Palmas (Lançamento da Pedra Fundamental)",
+      "en": "Palmas City Anniversary"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 5,
+      "dia": 20
+     },
+     "esfera": "municipal",
+     "fonte": "palmas-aniversario",
+     "desde": 1991
+    },
+    {
+     "id": "palmas-finados",
+     "nome": {
+      "pt": "Finados",
+      "en": "All Souls' Day"
+     },
+     "regra": {
+      "tipo": "fixo",
+      "mes": 11,
+      "dia": 2
+     },
+     "esfera": "municipal",
+     "fonte": "palmas-finados",
+     "desde": 1996
+    }
+   ],
+   "pendentes": [
+    {
+     "nome": "Dia da Consciência Negra (municipal)",
+     "motivo": "municipal",
+     "mes_dia": [
+      11,
+      20
+     ]
+    }
+   ]
+  }
+ },
+ "facultativos": [
+  {
+   "id": "carnaval-segunda",
+   "nome": {
+    "pt": "Carnaval (segunda-feira)",
+    "en": "Carnival Monday"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-02-16"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "carnaval-terca",
+   "nome": {
+    "pt": "Carnaval (terça-feira)",
+    "en": "Carnival Tuesday"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-02-17"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "cinzas",
+   "nome": {
+    "pt": "Quarta-feira de Cinzas (até as 14 horas)",
+    "en": "Ash Wednesday (until 2 pm)"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-02-18"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ],
+   "meio": "manha"
+  },
+  {
+   "id": "ponte-tiradentes",
+   "nome": {
+    "pt": "Segunda-feira antes de Tiradentes",
+    "en": "Monday before Tiradentes Day"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-04-20"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "corpus-christi",
+   "nome": {
+    "pt": "Corpus Christi",
+    "en": "Corpus Christi"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-06-04"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "ponte-corpus-christi",
+   "nome": {
+    "pt": "Sexta-feira depois de Corpus Christi",
+    "en": "Friday after Corpus Christi"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-06-05"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "servidor-publico",
+   "nome": {
+    "pt": "Dia do Servidor Público (transferido de 28 de outubro)",
+    "en": "Public Servant's Day (moved from 28 October)"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-10-30"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "mgi-servidor-2026",
+   "anos": [
+    2026
+   ]
+  },
+  {
+   "id": "vespera-natal",
+   "nome": {
+    "pt": "Véspera de Natal (após as 13 horas)",
+    "en": "Christmas Eve (from 1 pm)"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-12-24"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ],
+   "meio": "tarde"
+  },
+  {
+   "id": "vespera-ano-novo",
+   "nome": {
+    "pt": "Véspera de Ano-Novo (após as 13 horas)",
+    "en": "New Year's Eve (from 1 pm)"
+   },
+   "regra": {
+    "tipo": "data",
+    "datas": [
+     "2026-12-31"
+    ]
+   },
+   "esfera": "facultativo",
+   "fonte": "portaria-mgi-2026",
+   "anos": [
+    2026
+   ],
+   "meio": "tarde"
+  }
+ ],
+ "portarias": {
+  "2026": {
+   "publicada": true,
+   "fonte": "portaria-mgi-2026",
+   "numero": "Portaria MGI nº 11.460, de 29 de dezembro de 2025"
+  },
+  "2027": {
+   "publicada": false,
+   "verificado_em": "2026-10-28",
+   "fonte": "mgi-noticias"
+  },
+  "2028": {
+   "publicada": false,
+   "verificado_em": "2026-10-28",
+   "fonte": "mgi-noticias"
+  }
+ }
+}

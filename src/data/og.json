@@ -1,0 +1,20 @@
+{
+ "accent": "#00703C",
+ "symbol": "31",
+ "variants": [
+  {
+   "file": "og-pt.png",
+   "title": "Feriados 2027\npróximo feriado e emendas",
+   "subtitle": "Nacionais · 27 estados · capitais · Carnaval e Páscoa",
+   "badge": "Datas lidas nas leis federais, estaduais e municipais",
+   "brand": "BR Feriados"
+  },
+  {
+   "file": "og-en.png",
+   "title": "Brazil public holidays 2027\nnext holiday and long weekends",
+   "subtitle": "National · 27 states · state capitals · Carnival and Easter",
+   "badge": "Dates read in federal, state and municipal law",
+   "brand": "BR Feriados"
+  }
+ ]
+}
